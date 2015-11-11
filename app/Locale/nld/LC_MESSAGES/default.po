@@ -1,0 +1,1334 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: 2015-10-05 13:11-0400\n"
+"Language-Team: EMAIL@ADDRESS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.8.5\n"
+"Last-Translator: \n"
+"Language: nl_BE\n"
+
+#: Controller/CategoriesController.php:37;70;99
+msgid "Invalid category"
+msgstr "Ongeldige rubriek"
+
+#: Controller/CategoriesController.php:52;74
+msgid "The category has been saved"
+msgstr "De categorie is opgeslagen"
+
+#: Controller/CategoriesController.php:55;77
+msgid "The category could not be saved. Please, try again."
+msgstr ""
+"De rubriek kon niet worden opgeslagen. Wees zo goed, probeer het opnieuw."
+
+#: Controller/CategoriesController.php:102
+msgid "Category deleted"
+msgstr "Categorie verwijderd"
+
+#: Controller/CategoriesController.php:105
+msgid "Category was not deleted"
+msgstr "Categorie werd niet verwijderd"
+
+#: Controller/CinemasController.php:53;90;122
+msgid "Invalid cinema"
+msgstr "Ongeldige bioscoop"
+
+#: Controller/CinemasController.php:69;94
+msgid "The cinema has been saved"
+msgstr "De film is opgeslagen"
+
+#: Controller/CinemasController.php:72;97
+msgid "The cinema could not be saved. Please, try again."
+msgstr ""
+"De bioscoop kan niet worden opgeslagen. Wees zo goed, probeer het opnieuw."
+
+#: Controller/CinemasController.php:125
+msgid "Cinema deleted"
+msgstr "Cinema verwijderd"
+
+#: Controller/CinemasController.php:128
+msgid "Cinema was not deleted"
+msgstr "Bioscoop was niet verwijderd"
+
+#: Controller/CinemasShowingsController.php:37;73;105
+msgid "Invalid cinemas showing"
+msgstr "Ongeldige bioscopen weergegeven:"
+
+#: Controller/CinemasShowingsController.php:52;77
+msgid "The cinemas showing has been saved"
+msgstr "De bioscopen tonen is opgeslagen"
+
+#: Controller/CinemasShowingsController.php:55;80
+msgid "The cinemas showing could not be saved. Please, try again."
+msgstr ""
+"De bioscopen weergegeven: kon niet worden opgeslagen. Wees zo goed, probeer "
+"het opnieuw."
+
+#: Controller/CinemasShowingsController.php:108
+msgid "Cinemas showing deleted"
+msgstr "Bioscopen met verwijderde"
+
+#: Controller/CinemasShowingsController.php:111
+msgid "Cinemas showing was not deleted"
+msgstr "Bioscopen tonen werd niet verwijderd"
+
+#: Controller/MoviesController.php:38;74;106
+msgid "Invalid movie"
+msgstr "Ongeldige film"
+
+#: Controller/MoviesController.php:53;78
+msgid "The movie has been saved"
+msgstr "De film is opgeslagen"
+
+#: Controller/MoviesController.php:56;81
+msgid "The movie could not be saved. Please, try again."
+msgstr "De film kon niet worden opgeslagen. Wees zo goed, probeer het opnieuw."
+
+#: Controller/MoviesController.php:109
+msgid "Movie deleted"
+msgstr "Film verwijderd"
+
+#: Controller/MoviesController.php:112
+msgid "Movie was not deleted"
+msgstr "Film was niet verwijderd"
+
+#: Controller/ShowingsController.php:38;74;107
+msgid "Invalid showing"
+msgstr "Ongeldige weergegeven:"
+
+#: Controller/ShowingsController.php:53;78
+msgid "The showing has been saved"
+msgstr "De vertoning is opgeslagen"
+
+#: Controller/ShowingsController.php:56;81
+msgid "The showing could not be saved. Please, try again."
+msgstr ""
+"De weergegeven: kon niet worden opgeslagen. Wees zo goed, probeer het "
+"opnieuw."
+
+#: Controller/ShowingsController.php:110
+msgid "Showing deleted"
+msgstr "Verwijderde tonen"
+
+#: Controller/ShowingsController.php:113
+msgid "Showing was not deleted"
+msgstr "Weergegeven: was niet verwijderd"
+
+#: Controller/UsersController.php:33
+msgid "Nom d'user ou mot de passe invalide, réessayer"
+msgstr "Nom d'user ou mot de passe invalide, réessayer"
+
+#: Controller/UsersController.php:67;100;129
+msgid "Invalid user"
+msgstr "Ongeldige gebruiker"
+
+#: Controller/UsersController.php:82;104
+msgid "The user has been saved"
+msgstr "De gebruiker is opgeslagen"
+
+#: Controller/UsersController.php:85;107
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+"De gebruiker kan niet worden opgeslagen. Alsjeblieft, probeer het opnieuw."
+
+#: Controller/UsersController.php:132
+msgid "User deleted"
+msgstr "Gebruiker verwijderd"
+
+#: Controller/UsersController.php:135
+msgid "User was not deleted"
+msgstr "Gebruiker werd niet verwijderd"
+
+#: Plugin/i18n/Controller/TranslationsController.php:146
+msgid "The translation has been saved"
+msgstr "De vertaling is opgeslagen"
+
+#: Plugin/i18n/Controller/TranslationsController.php:167;190
+msgid "Translation saved"
+msgstr "Vertaling opgeslagen"
+
+#: Plugin/i18n/Controller/TranslationsController.php:210
+msgid "Translation deleted"
+msgstr "Vertaling verwijderd"
+
+#: Plugin/i18n/Model/Translation.php:112
+msgid "Could not save the translation, please check your inputs."
+msgstr "Kon niet opslaan de vertaling, gelieve te controleren uw ingangen."
+
+#: Plugin/i18n/Model/Translation.php:134;171;215;237
+msgid "Invalid Translation"
+msgstr "Ongeldige vertaling"
+
+#: Plugin/i18n/Model/Translation.php:255
+msgid "You need to confirm to delete this Translation"
+msgstr "U moet bevestigen als u wilt verwijderen van deze vertaling"
+
+#: Plugin/i18n/View/Translations/admin_add.ctp:4
+msgid "Admin Add Translation"
+msgstr "Admin toevoegen vertaling"
+
+#: Plugin/i18n/View/Translations/admin_add.ctp:17
+#: Plugin/i18n/View/Translations/admin_edit.ctp:19
+#: Plugin/i18n/View/Translations/admin_edit_multi.ctp:26
+#: Plugin/i18n/View/Translations/admin_view.ctp:40
+msgid "List Translations"
+msgstr "Lijst vertalingen"
+
+#: Plugin/i18n/View/Translations/admin_delete.ctp:1
+msgid "Delete Translation \"%s\"?"
+msgstr "Vertaling \"%s\" verwijderen?"
+
+#: Plugin/i18n/View/Translations/admin_delete.ctp:3
+msgid ""
+"Be aware that your Translation and all associated data will be deleted if "
+"you confirm!"
+msgstr ""
+"Let op dat uw vertaling en alle bijbehorende gegevens worden verwijderd als "
+"u bevestigen!"
+
+#: Plugin/i18n/View/Translations/admin_delete.ctp:11
+msgid "Confirm"
+msgstr "CONFIRM"
+
+#: Plugin/i18n/View/Translations/admin_delete.ctp:13
+msgid "You have to confirm."
+msgstr "U moet bevestigen."
+
+#: Plugin/i18n/View/Translations/admin_delete.ctp:14
+msgid "Continue"
+msgstr "Doorgaan"
+
+#: Plugin/i18n/View/Translations/admin_edit.ctp:4
+#: Plugin/i18n/View/Translations/admin_edit_multi.ctp:4
+msgid "Admin Edit Translation"
+msgstr "Admin bewerken vertaling"
+
+#: Plugin/i18n/View/Translations/admin_edit.ctp:18
+#: Plugin/i18n/View/Translations/admin_index.ctp:70 View/Categories/edit.ctp:12
+#: View/Categories/index.ctp:44 View/Cinemas/edit.ctp:12
+#: View/Cinemas/index.ctp:64 View/Cinemas/view.ctp:98
+#: View/CinemasShowings/edit.ctp:9 View/CinemasShowings/index.ctp:49
+#: View/Movies/edit.ctp:12 View/Movies/index.ctp:64 View/Movies/view.ctp:101
+#: View/Showings/edit.ctp:12 View/Showings/index.ctp:64
+#: View/Showings/view.ctp:97 View/Users/edit.ctp:12 View/Users/index.ctp:56
+#: View/Users/view.ctp:98
+msgid "Delete"
+msgstr "Wissen"
+
+#: Plugin/i18n/View/Translations/admin_edit_multi.ctp:22
+msgid "Submit"
+msgstr "Bevestigen"
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:2
+msgid "Translations"
+msgstr "Vertalingen"
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:6 View/Categories/index.ctp:56
+#: View/Cinemas/index.ctp:76 View/CinemasShowings/index.ctp:60
+#: View/Movies/index.ctp:76 View/Showings/index.ctp:76 View/Users/index.ctp:70
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+"{Page: pagina} van {: pagina's}, {tonen: current} registreert van {: count} "
+"totaal, te beginnen op de plaat {: start}, eindigend op {: end}"
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:17
+msgid "Locale Name"
+msgstr "Localenaam"
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:20
+msgid "Model Name"
+msgstr "Modelnaam"
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:23
+#: Plugin/i18n/View/Translations/admin_view.ctp:24
+msgid "Field"
+msgstr "Veld"
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:26
+#: Plugin/i18n/View/Translations/admin_view.ctp:29
+msgid "Content"
+msgstr "Content"
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:28
+msgid "Search"
+msgstr "Zoek"
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:40
+#: View/Categories/index.ctp:32 View/Cinemas/index.ctp:45
+#: View/Cinemas/view.ctp:84 View/CinemasShowings/index.ctp:33
+#: View/Movies/index.ctp:48 View/Movies/view.ctp:87 View/Showings/index.ctp:46
+#: View/Showings/view.ctp:82 View/Users/index.ctp:41 View/Users/view.ctp:84
+msgid "Actions"
+msgstr "Action"
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:67
+#: View/Categories/index.ctp:41 View/Cinemas/index.ctp:61
+#: View/Cinemas/view.ctp:96 View/CinemasShowings/index.ctp:47
+#: View/Movies/index.ctp:61 View/Movies/view.ctp:99 View/Showings/index.ctp:61
+#: View/Showings/view.ctp:95 View/Users/index.ctp:53 View/Users/view.ctp:96
+msgid "View"
+msgstr "Toon snel"
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:68
+#: View/Categories/index.ctp:43 View/Cinemas/index.ctp:63
+#: View/Cinemas/view.ctp:97 View/CinemasShowings/index.ctp:48
+#: View/Movies/index.ctp:63 View/Movies/view.ctp:100 View/Showings/index.ctp:63
+#: View/Showings/view.ctp:96 View/Users/index.ctp:55 View/Users/view.ctp:97
+msgid "Edit"
+msgstr "Bewerk"
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:69
+msgid "Edit All locales for this entry"
+msgstr "Alle landinstellingen voor dit item bewerken"
+
+#: Plugin/i18n/View/Translations/admin_index.ctp:80
+#: Plugin/i18n/View/Translations/admin_view.ctp:41
+msgid "New Translation"
+msgstr "Nieuwe vertaling"
+
+#: Plugin/i18n/View/Translations/admin_view.ctp:2
+msgid "Translation"
+msgstr "Vertaling"
+
+#: Plugin/i18n/View/Translations/admin_view.ctp:4
+#: View/CinemasShowings/view.ctp:33
+msgid "Id"
+msgstr "Id"
+
+#: Plugin/i18n/View/Translations/admin_view.ctp:9
+msgid "Locale"
+msgstr "Locale:"
+
+#: Plugin/i18n/View/Translations/admin_view.ctp:14
+msgid "Model"
+msgstr "Model"
+
+#: Plugin/i18n/View/Translations/admin_view.ctp:19
+msgid "Foreign Key"
+msgstr "Refererende sleutel"
+
+#: Plugin/i18n/View/Translations/admin_view.ctp:38
+msgid "Edit Translation"
+msgstr "Vertaling bewerken"
+
+#: Plugin/i18n/View/Translations/admin_view.ctp:39
+msgid "Delete Translation"
+msgstr "Vertaling verwijderen"
+
+#: View/Categories/add.ctp:12 View/Categories/edit.ctp:13
+#: View/Categories/view.ctp:14 View/Movies/add.ctp:17 View/Movies/edit.ctp:18
+#: View/Movies/index.ctp:18 View/Movies/view.ctp:21
+msgid "List Categories"
+msgstr "Lijst Categorieën"
+
+#: View/Categories/add.ctp:22
+msgid "Add Category"
+msgstr "Categorie toevoegen"
+
+#: View/Categories/edit.ctp:10 View/Categories/index.ctp:10
+#: View/Categories/view.ctp:10;27 View/Movies/add.ctp:15
+#: View/Movies/edit.ctp:16 View/Movies/index.ctp:16 View/Movies/view.ctp:19;62
+msgid "Category"
+msgstr "Categorie"
+
+#: View/Categories/edit.ctp:12 View/Categories/index.ctp:44
+#: View/Categories/view.ctp:13 View/Cinemas/edit.ctp:12
+#: View/Cinemas/index.ctp:64 View/Cinemas/view.ctp:13;98
+#: View/CinemasShowings/edit.ctp:9 View/CinemasShowings/index.ctp:49
+#: View/CinemasShowings/view.ctp:10 View/Movies/edit.ctp:12
+#: View/Movies/index.ctp:64 View/Movies/view.ctp:13;101
+#: View/Showings/edit.ctp:12 View/Showings/index.ctp:64
+#: View/Showings/view.ctp:13;97 View/Users/edit.ctp:12 View/Users/index.ctp:56
+#: View/Users/view.ctp:13;98
+msgid "Are you sure you want to delete # %s?"
+msgstr "Weet u zeker dat u wilt verwijderen van # %s?"
+
+#: View/Categories/edit.ctp:23 View/Categories/view.ctp:12
+msgid "Edit Category"
+msgstr "Categorie bewerken"
+
+#: View/Categories/index.ctp:12 View/Categories/view.ctp:15
+msgid "New Category"
+msgstr "Nieuwe categorie"
+
+#: View/Categories/index.ctp:24
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:55
+msgid "Categories"
+msgstr "Categorieën"
+
+#: View/Categories/index.ctp:30 View/Categories/view.ctp:32
+#: View/Cinemas/view.ctp:44 View/Showings/view.ctp:78 View/Users/view.ctp:81
+msgid "Name"
+msgstr "Naam"
+
+#: View/Categories/index.ctp:31 View/Categories/view.ctp:37
+msgid "Description"
+msgstr "Beschrijving"
+
+#: View/Categories/index.ctp:63 View/Cinemas/index.ctp:83
+#: View/CinemasShowings/index.ctp:67 View/Movies/index.ctp:83
+#: View/Showings/index.ctp:83 View/Users/index.ctp:77
+msgid "Previous"
+msgstr "Vorige"
+
+#: View/Categories/index.ctp:65 View/Cinemas/index.ctp:85
+#: View/CinemasShowings/index.ctp:69 View/Movies/index.ctp:85
+#: View/Showings/index.ctp:85 View/Users/index.ctp:79
+msgid "Next"
+msgstr "Volgende"
+
+#: View/Categories/view.ctp:13
+msgid "Delete Category"
+msgstr "Categorie verwijderen"
+
+#: View/Cinemas/add.ctp:9 View/Cinemas/edit.ctp:10 View/Cinemas/index.ctp:10
+#: View/Cinemas/view.ctp:10;39 View/CinemasShowings/view.ctp:38
+#: View/Showings/add.ctp:21 View/Showings/edit.ctp:22
+#: View/Showings/index.ctp:21;45 View/Showings/view.ctp:24
+#: View/Users/add.ctp:15 View/Users/edit.ctp:16 View/Users/index.ctp:15
+#: View/Users/view.ctp:18
+msgid "Cinema"
+msgstr "Bioscoop"
+
+#: View/Cinemas/add.ctp:11 View/Cinemas/edit.ctp:13 View/Cinemas/view.ctp:14
+#: View/CinemasShowings/add.ctp:10 View/CinemasShowings/edit.ctp:11
+#: View/CinemasShowings/index.ctp:10 View/CinemasShowings/view.ctp:13
+#: View/Showings/add.ctp:23 View/Showings/edit.ctp:24
+#: View/Showings/index.ctp:23 View/Showings/view.ctp:26 View/Users/add.ctp:17
+#: View/Users/edit.ctp:18 View/Users/index.ctp:17 View/Users/view.ctp:20
+msgid "List Cinemas"
+msgstr "Lijst bioscopen"
+
+#: View/Cinemas/add.ctp:14 View/Cinemas/edit.ctp:16 View/Cinemas/index.ctp:14
+#: View/Cinemas/view.ctp:18;59 View/Showings/view.ctp:81 View/Users/add.ctp:10
+#: View/Users/edit.ctp:10 View/Users/index.ctp:10 View/Users/view.ctp:10;33
+msgid "User"
+msgstr "gebruiker"
+
+#: View/Cinemas/add.ctp:16 View/Cinemas/edit.ctp:18 View/Cinemas/index.ctp:16
+#: View/Cinemas/view.ctp:20 View/Users/add.ctp:12 View/Users/edit.ctp:13
+#: View/Users/view.ctp:14
+msgid "List Users"
+msgstr "Gebruikers weer te geven"
+
+#: View/Cinemas/add.ctp:17 View/Cinemas/edit.ctp:19 View/Cinemas/index.ctp:17
+#: View/Cinemas/view.ctp:21 View/Users/index.ctp:12 View/Users/view.ctp:15
+msgid "New User"
+msgstr "Nieuwe gebruiker"
+
+#: View/Cinemas/add.ctp:20 View/Cinemas/edit.ctp:22
+#: View/Cinemas/index.ctp:20;44 View/Cinemas/view.ctp:24
+#: View/CinemasShowings/view.ctp:43 View/Movies/add.ctp:21
+#: View/Movies/edit.ctp:22 View/Movies/index.ctp:23 View/Movies/view.ctp:25
+#: View/Showings/add.ctp:10 View/Showings/edit.ctp:10
+#: View/Showings/index.ctp:10 View/Showings/view.ctp:10;39
+msgid "Showing"
+msgstr "Toon"
+
+#: View/Cinemas/add.ctp:22 View/Cinemas/edit.ctp:24 View/Cinemas/index.ctp:21
+#: View/Cinemas/view.ctp:26 View/CinemasShowings/add.ctp:12
+#: View/CinemasShowings/edit.ctp:13 View/CinemasShowings/index.ctp:12
+#: View/CinemasShowings/view.ctp:15 View/Movies/add.ctp:23
+#: View/Movies/edit.ctp:24 View/Movies/index.ctp:25 View/Movies/view.ctp:27
+#: View/Showings/add.ctp:12 View/Showings/edit.ctp:13 View/Showings/view.ctp:14
+msgid "List Showings"
+msgstr "Lijst voorstellingen"
+
+#: View/Cinemas/add.ctp:23 View/Cinemas/edit.ctp:25 View/Cinemas/index.ctp:22
+#: View/Cinemas/view.ctp:27;110 View/CinemasShowings/add.ctp:13
+#: View/CinemasShowings/edit.ctp:14 View/CinemasShowings/index.ctp:13
+#: View/CinemasShowings/view.ctp:16 View/Movies/add.ctp:24
+#: View/Movies/edit.ctp:25 View/Movies/index.ctp:26 View/Movies/view.ctp:28;113
+#: View/Showings/index.ctp:12 View/Showings/view.ctp:15
+msgid "New Showing"
+msgstr "Nieuwe tonen"
+
+#: View/Cinemas/add.ctp:33
+msgid "Add Cinema"
+msgstr "Toevoegen van Cinema"
+
+#: View/Cinemas/edit.ctp:35 View/Cinemas/view.ctp:12
+msgid "Edit Cinema"
+msgstr "Bewerken Cinema"
+
+#: View/Cinemas/index.ctp:12 View/Cinemas/view.ctp:15
+#: View/CinemasShowings/add.ctp:11 View/CinemasShowings/edit.ctp:12
+#: View/CinemasShowings/index.ctp:11 View/CinemasShowings/view.ctp:14
+#: View/Showings/add.ctp:24 View/Showings/edit.ctp:25
+#: View/Showings/index.ctp:24 View/Showings/view.ctp:27;109
+#: View/Users/add.ctp:18 View/Users/edit.ctp:19 View/Users/index.ctp:18
+#: View/Users/view.ctp:21;110
+msgid "New Cinema"
+msgstr "Nieuwe Cinema"
+
+#: View/Cinemas/index.ctp:34
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:52
+msgid "Cinemas"
+msgstr "Bioscopen"
+
+#: View/Cinemas/index.ctp:40
+msgid "name"
+msgstr "Naam:"
+
+#: View/Cinemas/index.ctp:41
+msgid "adress"
+msgstr "Adres:"
+
+#: View/Cinemas/index.ctp:42
+msgid "phone"
+msgstr "Telefoon"
+
+#: View/Cinemas/index.ctp:43
+msgid "user_id"
+msgstr "#user_id#<br>"
+
+#: View/Cinemas/view.ctp:13
+msgid "Delete Cinema"
+msgstr "Delete Cinema"
+
+#: View/Cinemas/view.ctp:49 View/Showings/view.ctp:79 View/Users/view.ctp:82
+msgid "Adress"
+msgstr "Adres:"
+
+#: View/Cinemas/view.ctp:54 View/Showings/view.ctp:80 View/Users/view.ctp:83
+msgid "Phone"
+msgstr "Telefoon"
+
+#: View/Cinemas/view.ctp:73 View/Movies/view.ctp:76
+msgid "Related Showings"
+msgstr "Verwante voorstellingen"
+
+#: View/Cinemas/view.ctp:81 View/Movies/view.ctp:84 View/Showings/view.ctp:45
+msgid "Date"
+msgstr "Datum"
+
+#: View/Cinemas/view.ctp:82 View/Movies/view.ctp:85 View/Showings/view.ctp:50
+msgid "Price"
+msgstr "Prijs"
+
+#: View/Cinemas/view.ctp:83 View/Movies/add.ctp:10 View/Movies/edit.ctp:10
+#: View/Movies/index.ctp:10 View/Movies/view.ctp:10;40;86
+#: View/Showings/add.ctp:15 View/Showings/edit.ctp:16
+#: View/Showings/index.ctp:15 View/Showings/view.ctp:18;55
+msgid "Movie"
+msgstr "Film"
+
+#: View/CinemasShowings/add.ctp:9 View/CinemasShowings/edit.ctp:10
+#: View/CinemasShowings/view.ctp:11
+msgid "List Cinemas Showings"
+msgstr "Lijst bioscopen voorstellingen"
+
+#: View/CinemasShowings/add.ctp:22
+msgid "Add Cinemas Showing"
+msgstr "Toevoegen van bioscopen weergegeven:"
+
+#: View/CinemasShowings/edit.ctp:23 View/CinemasShowings/view.ctp:9
+msgid "Edit Cinemas Showing"
+msgstr "Bewerken bioscopen weergegeven:"
+
+#: View/CinemasShowings/index.ctp:9 View/CinemasShowings/view.ctp:12
+msgid "New Cinemas Showing"
+msgstr "Nieuwe bioscopen weergegeven:"
+
+#: View/CinemasShowings/index.ctp:24
+msgid "Cinemas Showings"
+msgstr "Bioscopen voorstellingen"
+
+#: View/CinemasShowings/view.ctp:10
+msgid "Delete Cinemas Showing"
+msgstr "Delete bioscopen weergegeven:"
+
+#: View/CinemasShowings/view.ctp:28
+msgid "Cinemas Showing"
+msgstr "Bioscopen weergegeven:"
+
+#: View/Movies/add.ctp:12 View/Movies/edit.ctp:13 View/Movies/view.ctp:14
+#: View/Showings/add.ctp:17 View/Showings/edit.ctp:18
+#: View/Showings/index.ctp:17 View/Showings/view.ctp:20
+msgid "List Movies"
+msgstr "Lijst met films"
+
+#: View/Movies/add.ctp:18 View/Movies/edit.ctp:19 View/Movies/index.ctp:19
+#: View/Movies/view.ctp:22
+msgid "New Categories"
+msgstr "Nieuwe categorieën"
+
+#: View/Movies/add.ctp:34
+msgid "Add Movie"
+msgstr "Film toevoegen"
+
+#: View/Movies/edit.ctp:35 View/Movies/view.ctp:12
+msgid "Edit Movie"
+msgstr "Film bewerken"
+
+#: View/Movies/index.ctp:12 View/Movies/view.ctp:15 View/Showings/add.ctp:18
+#: View/Showings/edit.ctp:19 View/Showings/index.ctp:18
+#: View/Showings/view.ctp:21
+msgid "New Movie"
+msgstr "Nieuwe film"
+
+#: View/Movies/index.ctp:38 View/Themed/Cakestrap/Elements/menu/top_menu.ctp:54
+msgid "Movies"
+msgstr "Bioscoop"
+
+#: View/Movies/index.ctp:44 View/Movies/view.ctp:47
+msgid "Title"
+msgstr "Titel"
+
+#: View/Movies/index.ctp:45 View/Movies/view.ctp:52
+msgid "Year"
+msgstr "Jaar"
+
+#: View/Movies/index.ctp:46 View/Movies/view.ctp:57
+msgid "Summary"
+msgstr "Samenvatting"
+
+#: View/Movies/index.ctp:47
+msgid "category_id"
+msgstr ""
+
+#: View/Movies/view.ctp:13
+msgid "Delete Movie"
+msgstr "Film verwijderen"
+
+#: View/Showings/add.ctp:34
+msgid "Add Showing"
+msgstr "Toevoegen weergegeven:"
+
+#: View/Showings/edit.ctp:35 View/Showings/view.ctp:12
+msgid "Edit Showing"
+msgstr "Bewerken weergegeven:"
+
+#: View/Showings/index.ctp:36
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:53
+msgid "Showings"
+msgstr "Voorstellingen"
+
+#: View/Showings/index.ctp:42
+msgid "date"
+msgstr "Datum"
+
+#: View/Showings/index.ctp:43
+msgid "price"
+msgstr "prijs"
+
+#: View/Showings/index.ctp:44
+msgid "movie_id"
+msgstr ""
+
+#: View/Showings/view.ctp:13
+msgid "Delete Showing"
+msgstr "Verwijderen weergegeven:"
+
+#: View/Showings/view.ctp:69 View/Users/view.ctp:73
+msgid "Related Cinemas"
+msgstr "Verwante bioscopen"
+
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:9
+msgid "Cinemamenic"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:37
+msgid "Logout"
+msgstr "Afmelden"
+
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:41 View/Users/login.ctp:13
+msgid "Login"
+msgstr "Inloggen"
+
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:50
+msgid "Go to"
+msgstr "Ga naar"
+
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:56 View/Users/index.ctp:30
+msgid "Users"
+msgstr "Gebruikers"
+
+#: View/Users/add.ctp:28
+msgid "Add User"
+msgstr "Gebruiker toevoegen"
+
+#: View/Users/edit.ctp:29 View/Users/view.ctp:12
+msgid "Edit User"
+msgstr "Gebruiker bewerken"
+
+#: View/Users/index.ctp:36
+msgid "username"
+msgstr "Gebruikersnaam"
+
+#: View/Users/index.ctp:37
+msgid "e-mail"
+msgstr "e-mail"
+
+#: View/Users/index.ctp:38
+msgid "role"
+msgstr "Sociale rol"
+
+#: View/Users/index.ctp:39
+msgid "created"
+msgstr "Aangemaakt"
+
+#: View/Users/index.ctp:40
+msgid "modified"
+msgstr "Gewijzigd"
+
+#: View/Users/login.ctp:6
+msgid "Please enter your username and password"
+msgstr "Voer uw gebruikersnaam en wachtwoord"
+
+#: View/Users/view.ctp:13
+msgid "Delete User"
+msgstr "Gebruiker verwijderen"
+
+#: View/Users/view.ctp:39
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: View/Users/view.ctp:44
+msgid "E-mail"
+msgstr "E-mail"
+
+#: View/Users/view.ctp:49
+msgid "Role"
+msgstr "Sociale rol"
+
+#: View/Users/view.ctp:54
+msgid "Created"
+msgstr "Aangemaakt"
+
+#: View/Users/view.ctp:59
+msgid "Modified"
+msgstr "Gewijzigd"
+
+#: Model/Category.php:validation for field nom;validation description
+#: Model/Cinema.php:validation name;validation adress;validation phone
+#: Model/Movie.php:validation titre;validation resume
+msgid "notBlank"
+msgstr "notBlank"
+
+#: Model/CinemasShowing.php:validation for field cinema_id;validation
+#: showing_id Model/Movie.php:validation annee;validation category_id
+#: Model/Showing.php:validation movie_id
+msgid "numeric"
+msgstr "numerieke"
+
+#: Model/Showing.php:validation for field date
+msgid "datetime"
+msgstr "datetime"
+
+#: Model/Showing.php:validation for field prix
+msgid "decimal"
+msgstr "decimale"
+
+#: Model/User.php:validation for field email
+msgid "email"
+msgstr "E-mail..."
+
+#: Model/User.php:validation for field username
+msgid "A username is required"
+msgstr "Een gebruikersnaam is vereist"
+
+#: Model/User.php:validation for field password
+msgid "A password is required"
+msgstr "Een wachtwoord is vereist"
+
+#: Model/User.php:validation for field role
+msgid "Please enter a valid role"
+msgstr "Voer een geldige rol"
+
+#: Plugin/i18n/Model/Translation.php:validation for field locale
+msgid "Please enter a Locale"
+msgstr "Voer een Locale"
+
+#: Plugin/i18n/Model/Translation.php:validation for field model
+msgid "Please enter a Model"
+msgstr "Voer een Model"
+
+#: Plugin/i18n/Model/Translation.php:validation for field foreign_key
+msgid "Please enter a Foreign Key"
+msgstr "Voer een refererende sleutel"
+
+#: Plugin/i18n/Model/Translation.php:validation for field
+msgid "Please enter a Field"
+msgstr "Voer een veld"
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:41
+msgid "-> Testing :url"
+msgstr "-> Testen: url"
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:67
+msgid "Total Requests made: :requests"
+msgstr "Total verzoeken:: verzoeken"
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:68
+msgid "Total Time elapsed: :duration (seconds)"
+msgstr "Totale tijd die is verstreken:: duur (seconden)"
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:72
+msgid "Requests/Second: :rps req/sec"
+msgstr "Aanvragen per seconde:: rps req/sec"
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:76
+msgid "Average request time: :average-time seconds"
+msgstr "Gemiddelde verzoek tijd:: gemiddelde-time seconden"
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:80
+msgid "Standard deviation of average request time: :std-dev"
+msgstr "Standaarddeviatie van de gemiddelde verzoek tijd:: std-dev"
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:84
+msgid "Longest/shortest request: :longest sec/:shortest sec"
+msgstr "Langste/kortste verzoek:: langste sec /: kortste sec"
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:134
+msgid ""
+"Allows you to obtain some rough benchmarking statisticsabout a fully "
+"qualified URL."
+msgstr ""
+"U kunt voor sommige ruwe benchmarking statisticsabout een volledig "
+"gekwalificeerde URL."
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:139
+msgid "The URL to request."
+msgstr "De URL om te vragen."
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:144
+msgid "Number of iterations to perform."
+msgstr "Het aantal iteraties om uit te voeren."
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:148
+msgid ""
+"Maximum total time for all iterations, in seconds.If a single iteration "
+"takes more than the timeout, only one request will be made"
+msgstr ""
+"Maximale totale tijd voor alle herhalingen, in seconden. Als een enkele "
+"iteratie meer dan de time-out neemt, zal slechts één verzoek worden gedaan"
+
+#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:152
+msgid ""
+"Example Use: `cake benchmark --n 10 --t 100 http://localhost/testsite`. "
+"<info>Note:</info> this benchmark does not include browser render times."
+msgstr ""
+"Voorbeeld van gebruik: 'taart benchmark--n 10--t 100 http://localhost/"
+"testsite'. <info>Opmerking:</info> deze benchmark omvat geen browser render "
+"tijden."
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:159
+msgid "Component initialization"
+msgstr "Component initialisatie"
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:281
+msgid "Controller action"
+msgstr "Controller actie"
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:284
+msgid "Controller action start"
+msgstr "Controller actie start"
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:304
+msgid "Processing toolbar state"
+msgstr "Verwerking van werkbalk staat"
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:327
+msgid "Processing toolbar data"
+msgstr "Werkbalk gegevensverwerking"
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:362
+msgid "Controller render start"
+msgstr "Controller render begin"
+
+#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:446
+msgid "Could not load DebugToolbar panel %s"
+msgstr "DebugToolbar paneel %s kan niet worden geladen"
+
+#: Plugin/DebugKit/Lib/DebugTimer.php:128
+msgid "Core Processing (Derived from $_SERVER[\"REQUEST_TIME\"])"
+msgstr "Core-verwerking (afgeleid van $_SERVER[\"REQUEST_TIME\"])"
+
+#: Plugin/DebugKit/Lib/FireCake.php:310
+msgid "Headers already sent in %s on line %s. Cannot send log data to FirePHP."
+msgstr ""
+"Al verstuurd in %s op lijn %s. headers kunnen niet verzenden FirePHP "
+"logboekgegevens."
+
+#: Plugin/DebugKit/Lib/FireCake.php:331
+msgid "Incorrect parameter count for FireCake::fb()"
+msgstr "Onjuiste parameter tellen voor FireCake::fb()"
+
+#: Plugin/DebugKit/Lib/FireCake.php:410
+msgid "Maximum number (99,999) of messages reached!"
+msgstr "Maximum aantal (99.999) berichten bereikt!"
+
+#: Plugin/DebugKit/View/Elements/debug_toolbar.ctp:23
+msgid "There are no active panels. You must enable a panel to see its output."
+msgstr ""
+"Er zijn geen actieve panelen. U moet een paneel om te zien de uitvoer "
+"inschakelen."
+
+#: Plugin/DebugKit/View/Elements/environment_panel.ctp:20
+msgid "App Constants"
+msgstr "App-constanten zijn"
+
+#: Plugin/DebugKit/View/Elements/environment_panel.ctp:36
+msgid "CakePHP Constants"
+msgstr "CakePHP-constanten zijn"
+
+#: Plugin/DebugKit/View/Elements/environment_panel.ctp:52
+msgid "PHP Environment"
+msgstr "PHP omgeving"
+
+#: Plugin/DebugKit/View/Elements/environment_panel.ctp:70
+msgid "Hidef Environment"
+msgstr "Hidef milieu"
+
+#: Plugin/DebugKit/View/Elements/history_panel.ctp:19
+msgid "Request History"
+msgstr "Verzoek geschiedenis"
+
+#: Plugin/DebugKit/View/Elements/history_panel.ctp:21
+msgid "No previous requests logged."
+msgstr "Geen eerdere verzoeken geregistreerd."
+
+#: Plugin/DebugKit/View/Elements/history_panel.ctp:23
+msgid "previous requests available"
+msgstr "eerdere verzoeken beschikbaar"
+
+#: Plugin/DebugKit/View/Elements/history_panel.ctp:25
+msgid "Restore to current request"
+msgstr "Terugzetten naar de huidige aanvraag"
+
+#: Plugin/DebugKit/View/Elements/include_panel.ctp:19
+msgid "Included Files"
+msgstr "Opgenomen bestanden"
+
+#: Plugin/DebugKit/View/Elements/log_panel.ctp:19
+msgid "Logs"
+msgstr "Logs"
+
+#: Plugin/DebugKit/View/Elements/log_panel.ctp:27
+msgid "Time"
+msgstr "Tijd"
+
+#: Plugin/DebugKit/View/Elements/log_panel.ctp:27
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:42;66
+msgid "Message"
+msgstr "Bericht"
+
+#: Plugin/DebugKit/View/Elements/log_panel.ctp:38
+msgid "There were no log entries made this request"
+msgstr ""
+"Er waren geen vermeldingen in het beveiligingslogboek dit verzoek gedaan"
+
+#: Plugin/DebugKit/View/Elements/request_panel.ctp:19
+msgid "Request"
+msgstr "REQUEST"
+
+#: Plugin/DebugKit/View/Elements/request_panel.ctp:27
+msgid "No post data."
+msgstr "Geen post-gegevens."
+
+#: Plugin/DebugKit/View/Elements/request_panel.ctp:36
+msgid "No querystring data."
+msgstr "Geen querystring-gegevens."
+
+#: Plugin/DebugKit/View/Elements/request_panel.ctp:49
+msgid "Current Route"
+msgstr "Huidige Route"
+
+#: Plugin/DebugKit/View/Elements/session_panel.ctp:19
+msgid "Session"
+msgstr "Sessie"
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:24
+msgid "Sql Logs"
+msgstr "SQL-logboeken"
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:39
+msgid "No query logs when debug < 2."
+msgstr "Geen query zich aanmeldt wanneer debug < 2."
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:41
+msgid "No query logs."
+msgstr "Geen query logs."
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:58
+msgid "Total Time: %s ms <br />Total Queries: %s queries"
+msgstr "Totale tijd: %s ms<br>Totale query's: %s query's"
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:67
+msgid "%s duplicate queries run."
+msgstr "%s dubbele query's worden uitgevoerd."
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:70
+msgid "Query Explain:"
+msgstr "Query uitleggen:"
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:73
+msgid "Click an \"Explain\" link above, to see the query explanation."
+msgstr "Klik op een \"Explain\" link hierboven, om te zien de query uitleg."
+
+#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:79
+msgid "No active database connections"
+msgstr "Geen actieve databaseverbindingen"
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:35
+msgid "Memory"
+msgstr "Geheugen"
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:38
+msgid "Peak Memory Use"
+msgstr "Gebruik van het geheugen piek"
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:42
+msgid "Memory use"
+msgstr "Gebruik van het geheugen"
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:55
+msgid "Timers"
+msgstr "Timers"
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:57
+msgid "%s (ms)"
+msgstr "%s (ms)"
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:58
+msgid "Total Request Time:"
+msgstr "Totale verzoek tijd:"
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:67
+msgid "Time in ms"
+msgstr "Tijd in ms"
+
+#: Plugin/DebugKit/View/Elements/timer_panel.ctp:68
+msgid "Graph"
+msgstr "Graph"
+
+#: Plugin/DebugKit/View/Elements/variables_panel.ctp:19
+msgid "View Variables"
+msgstr "Weergave variabelen"
+
+#: Plugin/DebugKit/View/Helper/DebugTimerHelper.php:45
+msgid "Rendering View"
+msgstr "Weergave weergave"
+
+#: Plugin/DebugKit/View/Helper/DebugTimerHelper.php:60
+msgid "Rendering %s"
+msgstr "Weergave %s"
+
+#: Plugin/DebugKit/View/Helper/DebugTimerHelper.php:86
+msgid "View render complete"
+msgstr "Weergave volledige renderen"
+
+#: Plugin/DebugKit/View/Helper/HtmlToolbarHelper.php:230
+msgid "Explain"
+msgstr "Uitleggen"
+
+#: Plugin/DebugKit/View/Helper/SimpleGraphHelper.php:80
+msgid "Starting %sms into the request, taking %sms"
+msgstr "Starten %sms in de aanvraag, neemt %sms"
+
+#: Plugin/DebugKit/View/Helper/TidyHelper.php:99
+msgid "No markup errors found"
+msgstr "Geen markup fouten gevonden"
+
+#: Plugin/DebugKit/View/Helper/ToolbarHelper.php:190
+msgid "maybe slow"
+msgstr "misschien langzaam"
+
+#: Plugin/DebugKit/Console/Command/WhitespaceShell.php:90
+msgid "Absolute path or relative to APP."
+msgstr "Absoluut pad of relatief ten opzichte van APP."
+
+#: View/Errors/error400.ctp:19 View/Errors/error500.ctp:19
+msgid "Error"
+msgstr "Error"
+
+#: View/Errors/error400.ctp:21
+msgid "The requested address %s was not found on this server."
+msgstr "De gevraagde adres%s is niet gevonden op deze server."
+
+#: View/Errors/error500.ctp:20
+msgid "An Internal Error Has Occurred."
+msgstr "Er is een interne fout opgetreden."
+
+#: View/Layouts/default.ctp:17 View/Layouts/error.ctp:17
+#: View/Themed/Cakestrap/Layouts/default.ctp:19
+msgid "CakePHP: the rapid development php framework"
+msgstr "CakePHP: de snelle ontwikkeling php framework"
+
+#: View/Layouts/default.ctp:18
+msgid "CakePHP %s"
+msgstr "CakePHP %s"
+
+#: View/Pages/home.ctp:14
+msgid "Release Notes for CakePHP %s."
+msgstr "Release Notities voor CakePHP %s."
+
+#: View/Pages/home.ctp:16
+msgid "Read the changelog"
+msgstr "De changelog lezen"
+
+#: View/Pages/home.ctp:25
+msgid "URL rewriting is not properly configured on your server."
+msgstr "URL herschrijven is niet correct geconfigureerd op uw server."
+
+#: View/Pages/home.ctp:34
+msgid "Your version of PHP is 5.2.8 or higher."
+msgstr "Uw versie van PHP 5.2.8 is of hoger."
+
+#: View/Pages/home.ctp:38
+msgid ""
+"Your version of PHP is too low. You need PHP 5.2.8 or higher to use CakePHP."
+msgstr ""
+"Uw versie van PHP is te laag. U moet PHP 5.2.8 of hoger te gebruiken van "
+"CakePHP."
+
+#: View/Pages/home.ctp:47
+msgid "Your tmp directory is writable."
+msgstr "Uw tmp directory is schrijfbaar."
+
+#: View/Pages/home.ctp:51
+msgid "Your tmp directory is NOT writable."
+msgstr "Uw tmp directory is niet beschrijfbaar."
+
+#: View/Pages/home.ctp:61
+msgid "The %s is being used for core caching. To change the config edit %s"
+msgstr ""
+"De %s wordt gebruikt voor caching van core. Als u wilt wijzigen de config "
+"bewerken %s"
+
+#: View/Pages/home.ctp:65
+msgid "Your cache is NOT working. Please check the settings in %s"
+msgstr "Uw cache werkt niet. Controleer de instellingen in %s"
+
+#: View/Pages/home.ctp:75
+msgid "Your database configuration file is present."
+msgstr "Uw database configuratiebestand is aanwezig."
+
+#: View/Pages/home.ctp:80
+msgid "Your database configuration file is NOT present."
+msgstr "Uw database configuratiebestand is niet aanwezig."
+
+#: View/Pages/home.ctp:82
+msgid "Rename %s to %s"
+msgstr "Hernoemen %s naar %s"
+
+#: View/Pages/home.ctp:107
+msgid "CakePHP is able to connect to the database."
+msgstr "CakePHP is in staat om te verbinden met de database."
+
+#: View/Pages/home.ctp:111
+msgid "CakePHP is NOT able to connect to the database."
+msgstr "CakePHP is niet kundig voor verbinden met de database."
+
+#: View/Pages/home.ctp:124
+msgid "PCRE has not been compiled with Unicode support."
+msgstr "PCRE is niet gecompileerd met ondersteuning voor Unicode."
+
+#: View/Pages/home.ctp:126
+msgid ""
+"Recompile PCRE with Unicode support by adding <code>--enable-unicode-"
+"properties</code> when configuring"
+msgstr ""
+"Hercompileer PCRE met Unicode-ondersteuning door het toevoegen van <code>--"
+"enable-unicode-properties</code> bij het configureren van"
+
+#: View/Pages/home.ctp:135
+msgid "DebugKit plugin is present"
+msgstr "DebugKit plugin is aanwezig"
+
+#: View/Pages/home.ctp:139
+msgid ""
+"DebugKit is not installed. It will help you inspect and debug different "
+"aspects of your application."
+msgstr ""
+"DebugKit is niet geïnstalleerd. Het zal u helpen controleren en fouten "
+"opsporen in verschillende aspecten van uw toepassing."
+
+#: View/Pages/home.ctp:141
+msgid "You can install it from %s"
+msgstr "U kunt het installeren van %s"
+
+#: View/Pages/home.ctp:147
+msgid "Editing this Page"
+msgstr "Deze pagina bewerken"
+
+#: View/Pages/home.ctp:150
+msgid ""
+"To change the content of this page, edit: %s.<br />\n"
+"To change its layout, edit: %s.<br />\n"
+"You can also add some CSS styles for your pages at: %s."
+msgstr ""
+"Om de inhoud van deze pagina veranderen, bewerkt: %s.<br>Wilt wijzigen van "
+"de lay-out, bewerkt: %s.<br>U kunt ook bepaalde CSS-stijlen toevoegen voor "
+"uw pagina's op: %s."
+
+#: View/Pages/home.ctp:157
+msgid "Getting Started"
+msgstr "Beginnen"
+
+#: View/Pages/home.ctp:161
+msgid "New"
+msgstr "New"
+
+#: View/Pages/home.ctp:161
+msgid "CakePHP 2.0 Docs"
+msgstr "CakePHP 2.0 Docs"
+
+#: View/Pages/home.ctp:170
+msgid "The 15 min Blog Tutorial"
+msgstr "De 15 min Blog Tutorial"
+
+#: View/Pages/home.ctp:177
+msgid "Official Plugins"
+msgstr "Officiële Plugins"
+
+#: View/Pages/home.ctp:182
+msgid ""
+"provides a debugging toolbar and enhanced debugging tools for CakePHP "
+"applications."
+msgstr ""
+"biedt een debugging werkbalk en verbeterde hulpprogramma's voor "
+"foutopsporing voor CakePHP toepassingen."
+
+#: View/Pages/home.ctp:186
+msgid ""
+"contains various localized validation classes and translations for specific "
+"countries"
+msgstr ""
+"bevat verschillende gelokaliseerde validatie klassen en vertalingen voor "
+"bepaalde landen"
+
+#: View/Pages/home.ctp:191
+msgid "More about CakePHP"
+msgstr "Meer over CakePHP"
+
+#: View/Pages/home.ctp:193
+msgid ""
+"CakePHP is a rapid development framework for PHP which uses commonly known "
+"design patterns like Active Record, Association Data Mapping, Front "
+"Controller and MVC."
+msgstr ""
+"CakePHP is een snelle ontwikkelingskader voor PHP die algemeen bekende "
+"ontwerppatronen zoals de actieve Record, vereniging Data Mapping, Front "
+"Controller en MVC gebruikt."
+
+#: View/Pages/home.ctp:196
+msgid ""
+"Our primary goal is to provide a structured framework that enables PHP users "
+"at all levels to rapidly develop robust web applications, without any loss "
+"to flexibility."
+msgstr ""
+"Ons primaire doel is om een gestructureerd kader waarmee PHP gebruikers op "
+"alle niveaus om te snel ontwikkelen van robuuste webapplicaties, zonder "
+"verlies aan flexibiliteit."
+
+#: View/Pages/home.ctp:201
+msgid "The Rapid Development Framework"
+msgstr "Het snelle ontwikkelingskader"
+
+#: View/Pages/home.ctp:202
+msgid "CakePHP Documentation"
+msgstr "CakePHP documentatie"
+
+#: View/Pages/home.ctp:203
+msgid "Your Rapid Development Cookbook"
+msgstr "Uw snelle ontwikkeling Cookbook"
+
+#: View/Pages/home.ctp:204
+msgid "CakePHP API"
+msgstr "CakePHP API"
+
+#: View/Pages/home.ctp:205
+msgid "Quick API Reference"
+msgstr "Snelle API: naslag"
+
+#: View/Pages/home.ctp:206
+msgid "The Bakery"
+msgstr "De bakkerij"
+
+#: View/Pages/home.ctp:207
+msgid "Everything CakePHP"
+msgstr "Alles CakePHP"
+
+#: View/Pages/home.ctp:208
+msgid "CakePHP Plugins"
+msgstr "CakePHP Plugins"
+
+#: View/Pages/home.ctp:209
+msgid "A comprehensive list of all CakePHP plugins created by the community"
+msgstr ""
+"Een uitgebreide lijst van alle CakePHP plugins gemaakt door de Gemeenschap"
+
+#: View/Pages/home.ctp:210
+msgid "CakePHP Community Center"
+msgstr "CakePHP Community Center"
+
+#: View/Pages/home.ctp:211
+msgid "Everything related to the CakePHP community in one place"
+msgstr "Alles met betrekking tot de CakePHP Gemeenschap op één plaats"
+
+#: View/Pages/home.ctp:212
+msgid "CakePHP Google Group"
+msgstr "CakePHP Google-discussiegroep"
+
+#: View/Pages/home.ctp:213
+msgid "Community mailing list"
+msgstr "Communautaire mailinglijst"
+
+#: View/Pages/home.ctp:215
+msgid "Live chat about CakePHP"
+msgstr "Live chat over CakePHP"
+
+#: View/Pages/home.ctp:216
+msgid "CakePHP Code"
+msgstr "CakePHP Code"
+
+#: View/Pages/home.ctp:217
+msgid "Find the CakePHP code on GitHub and contribute to the framework"
+msgstr "De CakePHP code op GitHub vinden en bijdragen tot het kader"
+
+#: View/Pages/home.ctp:218;219
+msgid "CakePHP Issues"
+msgstr "CakePHP kwesties"
+
+#: View/Pages/home.ctp:220;221
+msgid "CakePHP Roadmaps"
+msgstr "CakePHP routekaarten"
+
+#: View/Pages/home.ctp:222
+msgid "Training"
+msgstr "Trainen"
+
+#: View/Pages/home.ctp:223
+msgid "Join a live session and get skilled with the framework"
+msgstr "Join een live sessie en ontvang ervaren met het kader"
+
+#: View/Pages/home.ctp:224
+msgid "CakeFest"
+msgstr "CakeFest"
+
+#: View/Pages/home.ctp:225
+msgid "Don't miss our annual CakePHP conference"
+msgstr "Niet te missen onze jaarlijkse conferentie van CakePHP"
+
+#: View/Pages/home.ctp:226
+msgid "Cake Software Foundation"
+msgstr "Taart Software Foundation"
+
+#: View/Pages/home.ctp:227
+msgid "Promoting development related to CakePHP"
+msgstr "Bevordering van de ontwikkeling met betrekking tot CakePHP"
+
+#: webroot/test.php:103
+msgid "Debug setting does not allow access to this url."
+msgstr "Debug instelling staat geen toegang tot deze url."
