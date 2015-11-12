@@ -141,7 +141,7 @@ class CinemasController extends AppController {
         $this->redirect(array('action' => 'index'));
     }
         public function about() {
-             $this->set('cinemas', $this->paginate());
+            $this->layout = 'default';
 	}
 
 }
