@@ -13,128 +13,180 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: Controller/CategoriesController.php:37;70;99
+#: Controller/CategoriesController.php:39;72;101
 msgid "Invalid category"
 msgstr ""
 
-#: Controller/CategoriesController.php:52;74
+#: Controller/CategoriesController.php:54;76
 msgid "The category has been saved"
 msgstr ""
 
-#: Controller/CategoriesController.php:55;77
+#: Controller/CategoriesController.php:57;79
 msgid "The category could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/CategoriesController.php:102
+#: Controller/CategoriesController.php:104
 msgid "Category deleted"
 msgstr ""
 
-#: Controller/CategoriesController.php:105
+#: Controller/CategoriesController.php:107
 msgid "Category was not deleted"
 msgstr ""
 
-#: Controller/CinemasController.php:53;90;122
+#: Controller/CinemasController.php:57;101;134
 msgid "Invalid cinema"
 msgstr ""
 
-#: Controller/CinemasController.php:69;94
+#: Controller/CinemasController.php:80;106
 msgid "The cinema has been saved"
 msgstr ""
 
-#: Controller/CinemasController.php:72;97
+#: Controller/CinemasController.php:83;109
 msgid "The cinema could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/CinemasController.php:125
+#: Controller/CinemasController.php:137
 msgid "Cinema deleted"
 msgstr ""
 
-#: Controller/CinemasController.php:128
+#: Controller/CinemasController.php:140
 msgid "Cinema was not deleted"
 msgstr ""
 
-#: Controller/CinemasShowingsController.php:37;73;105
+#: Controller/CinemasShowingsController.php:39;75;107
 msgid "Invalid cinemas showing"
 msgstr ""
 
-#: Controller/CinemasShowingsController.php:52;77
+#: Controller/CinemasShowingsController.php:54;79
 msgid "The cinemas showing has been saved"
 msgstr ""
 
-#: Controller/CinemasShowingsController.php:55;80
+#: Controller/CinemasShowingsController.php:57;82
 msgid "The cinemas showing could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/CinemasShowingsController.php:108
+#: Controller/CinemasShowingsController.php:110
 msgid "Cinemas showing deleted"
 msgstr ""
 
-#: Controller/CinemasShowingsController.php:111
+#: Controller/CinemasShowingsController.php:113
 msgid "Cinemas showing was not deleted"
 msgstr ""
 
-#: Controller/MoviesController.php:38;74;106
+#: Controller/MoviesController.php:42;82;117
 msgid "Invalid movie"
 msgstr ""
 
-#: Controller/MoviesController.php:53;78
+#: Controller/MoviesController.php:57;86
 msgid "The movie has been saved"
 msgstr ""
 
-#: Controller/MoviesController.php:56;81
+#: Controller/MoviesController.php:64;92
 msgid "The movie could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/MoviesController.php:109
+#: Controller/MoviesController.php:120
 msgid "Movie deleted"
 msgstr ""
 
-#: Controller/MoviesController.php:112
+#: Controller/MoviesController.php:123
 msgid "Movie was not deleted"
 msgstr ""
 
-#: Controller/ShowingsController.php:38;74;107
+#: Controller/RatingsController.php:42
+msgid "Invalid rating"
+msgstr ""
+
+#: Controller/SchedulesController.php:42;75;104
+msgid "Invalid schedule"
+msgstr ""
+
+#: Controller/SchedulesController.php:57;79
+msgid "The schedule has been saved"
+msgstr ""
+
+#: Controller/SchedulesController.php:60;82
+msgid "The schedule could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/SchedulesController.php:107
+msgid "Schedule deleted"
+msgstr ""
+
+#: Controller/SchedulesController.php:110
+msgid "Schedule was not deleted"
+msgstr ""
+
+#: Controller/SchedulesShowingsController.php:39;75;107
+msgid "Invalid schedules showing"
+msgstr ""
+
+#: Controller/SchedulesShowingsController.php:54;79
+msgid "The schedules showing has been saved"
+msgstr ""
+
+#: Controller/SchedulesShowingsController.php:57;82
+msgid "The schedules showing could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/SchedulesShowingsController.php:110
+msgid "Schedules showing deleted"
+msgstr ""
+
+#: Controller/SchedulesShowingsController.php:113
+msgid "Schedules showing was not deleted"
+msgstr ""
+
+#: Controller/ShowingsController.php:40;79;114
 msgid "Invalid showing"
 msgstr ""
 
-#: Controller/ShowingsController.php:53;78
+#: Controller/ShowingsController.php:55;83
 msgid "The showing has been saved"
 msgstr ""
 
-#: Controller/ShowingsController.php:56;81
+#: Controller/ShowingsController.php:58;86
 msgid "The showing could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/ShowingsController.php:110
+#: Controller/ShowingsController.php:117
 msgid "Showing deleted"
 msgstr ""
 
-#: Controller/ShowingsController.php:113
+#: Controller/ShowingsController.php:120
 msgid "Showing was not deleted"
 msgstr ""
 
-#: Controller/UsersController.php:33
+#: Controller/UsersController.php:35
 msgid "Nom d'user ou mot de passe invalide, réessayer"
 msgstr ""
 
-#: Controller/UsersController.php:67;100;129
+#: Controller/UsersController.php:71;107;136
 msgid "Invalid user"
 msgstr ""
 
-#: Controller/UsersController.php:82;104
+#: Controller/UsersController.php:89;111
 msgid "The user has been saved"
 msgstr ""
 
-#: Controller/UsersController.php:85;107
+#: Controller/UsersController.php:92;114
 msgid "The user could not be saved. Please, try again."
 msgstr ""
 
-#: Controller/UsersController.php:132
+#: Controller/UsersController.php:139
 msgid "User deleted"
 msgstr ""
 
-#: Controller/UsersController.php:135
+#: Controller/UsersController.php:142
 msgid "User was not deleted"
+msgstr ""
+
+#: Controller/UsersController.php:174
+msgid "Your account has been activated successfully"
+msgstr ""
+
+#: Controller/UsersController.php:177
+msgid "This activation link is invalid"
 msgstr ""
 
 #: Plugin/i18n/Controller/TranslationsController.php:146
@@ -199,22 +251,27 @@ msgstr ""
 
 #: Plugin/i18n/View/Translations/admin_edit.ctp:18
 #: Plugin/i18n/View/Translations/admin_index.ctp:70
-#: View/Categories/edit.ctp:12
-#: View/Categories/index.ctp:44
+#: View/Categories/edit.ctp:13
+#: View/Categories/index.ctp:53
 #: View/Cinemas/edit.ctp:12
-#: View/Cinemas/index.ctp:64
-#: View/Cinemas/view.ctp:98
+#: View/Cinemas/index.ctp:75
+#: View/Cinemas/view.ctp:114
 #: View/CinemasShowings/edit.ctp:9
 #: View/CinemasShowings/index.ctp:49
-#: View/Movies/edit.ctp:12
-#: View/Movies/index.ctp:64
-#: View/Movies/view.ctp:101
+#: View/Movies/edit.ctp:16
+#: View/Movies/index.ctp:94
+#: View/Movies/view.ctp:134
+#: View/Schedules/edit.ctp:13
+#: View/Schedules/index.ctp:52
+#: View/Schedules/view.ctp:84
+#: View/SchedulesShowings/edit.ctp:9
+#: View/SchedulesShowings/index.ctp:49
 #: View/Showings/edit.ctp:12
-#: View/Showings/index.ctp:64
-#: View/Showings/view.ctp:97
-#: View/Users/edit.ctp:12
-#: View/Users/index.ctp:56
-#: View/Users/view.ctp:98
+#: View/Showings/index.ctp:93
+#: View/Showings/view.ctp:119;164
+#: View/Users/edit.ctp:13
+#: View/Users/index.ctp:72
+#: View/Users/view.ctp:122
 msgid "Delete"
 msgstr ""
 
@@ -227,12 +284,15 @@ msgid "Translations"
 msgstr ""
 
 #: Plugin/i18n/View/Translations/admin_index.ctp:6
-#: View/Categories/index.ctp:56
-#: View/Cinemas/index.ctp:76
+#: View/Categories/index.ctp:65
+#: View/Cinemas/index.ctp:87
 #: View/CinemasShowings/index.ctp:60
-#: View/Movies/index.ctp:76
-#: View/Showings/index.ctp:76
-#: View/Users/index.ctp:70
+#: View/Movies/index.ctp:107
+#: View/Ratings/index.ctp:44
+#: View/Schedules/index.ctp:64
+#: View/SchedulesShowings/index.ctp:60
+#: View/Showings/index.ctp:105
+#: View/Users/index.ctp:85
 msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
 msgstr ""
 
@@ -259,44 +319,55 @@ msgid "Search"
 msgstr ""
 
 #: Plugin/i18n/View/Translations/admin_index.ctp:40
-#: View/Categories/index.ctp:32
-#: View/Cinemas/index.ctp:45
-#: View/Cinemas/view.ctp:84
+#: View/Categories/index.ctp:34
+#: View/Cinemas/index.ctp:51
+#: View/Cinemas/view.ctp:99
 #: View/CinemasShowings/index.ctp:33
-#: View/Movies/index.ctp:48
-#: View/Movies/view.ctp:87
-#: View/Showings/index.ctp:46
-#: View/Showings/view.ctp:82
-#: View/Users/index.ctp:41
-#: View/Users/view.ctp:84
+#: View/Movies/index.ctp:64
+#: View/Movies/view.ctp:116
+#: View/Ratings/index.ctp:16
+#: View/Schedules/index.ctp:41
+#: View/Schedules/view.ctp:68
+#: View/SchedulesShowings/index.ctp:33
+#: View/Showings/index.ctp:63
+#: View/Showings/view.ctp:101;148
+#: View/Users/index.ctp:46
+#: View/Users/view.ctp:105
 msgid "Actions"
 msgstr ""
 
 #: Plugin/i18n/View/Translations/admin_index.ctp:67
-#: View/Categories/index.ctp:41
-#: View/Cinemas/index.ctp:61
-#: View/Cinemas/view.ctp:96
+#: View/Categories/index.ctp:50
+#: View/Cinemas/index.ctp:72
+#: View/Cinemas/view.ctp:111
 #: View/CinemasShowings/index.ctp:47
-#: View/Movies/index.ctp:61
-#: View/Movies/view.ctp:99
-#: View/Showings/index.ctp:61
-#: View/Showings/view.ctp:95
-#: View/Users/index.ctp:53
-#: View/Users/view.ctp:96
+#: View/Movies/index.ctp:91
+#: View/Movies/view.ctp:129
+#: View/Ratings/index.ctp:33
+#: View/Schedules/index.ctp:49
+#: View/Schedules/view.ctp:81
+#: View/SchedulesShowings/index.ctp:47
+#: View/Showings/index.ctp:90
+#: View/Showings/view.ctp:116;159
+#: View/Users/index.ctp:69
+#: View/Users/view.ctp:119
 msgid "View"
 msgstr ""
 
 #: Plugin/i18n/View/Translations/admin_index.ctp:68
-#: View/Categories/index.ctp:43
-#: View/Cinemas/index.ctp:63
-#: View/Cinemas/view.ctp:97
+#: View/Categories/index.ctp:52
+#: View/Cinemas/index.ctp:74
+#: View/Cinemas/view.ctp:113
 #: View/CinemasShowings/index.ctp:48
-#: View/Movies/index.ctp:63
-#: View/Movies/view.ctp:100
-#: View/Showings/index.ctp:63
-#: View/Showings/view.ctp:96
-#: View/Users/index.ctp:55
-#: View/Users/view.ctp:97
+#: View/Movies/index.ctp:93
+#: View/Movies/view.ctp:133
+#: View/Schedules/index.ctp:51
+#: View/Schedules/view.ctp:83
+#: View/SchedulesShowings/index.ctp:48
+#: View/Showings/index.ctp:92
+#: View/Showings/view.ctp:118;163
+#: View/Users/index.ctp:71
+#: View/Users/view.ctp:121
 msgid "Edit"
 msgstr ""
 
@@ -315,6 +386,7 @@ msgstr ""
 
 #: Plugin/i18n/View/Translations/admin_view.ctp:4
 #: View/CinemasShowings/view.ctp:33
+#: View/SchedulesShowings/view.ctp:33
 msgid "Id"
 msgstr ""
 
@@ -339,12 +411,13 @@ msgid "Delete Translation"
 msgstr ""
 
 #: View/Categories/add.ctp:12
-#: View/Categories/edit.ctp:13
-#: View/Categories/view.ctp:14
-#: View/Movies/add.ctp:17
-#: View/Movies/edit.ctp:18
-#: View/Movies/index.ctp:18
-#: View/Movies/view.ctp:21
+#: View/Categories/edit.ctp:15
+#: View/Categories/view.ctp:17
+#: View/Movies/add.ctp:20
+#: View/Movies/edit.ctp:23
+#: View/Movies/index.ctp:21
+#: View/Movies/view.ctp:23
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:57
 msgid "List Categories"
 msgstr ""
 
@@ -355,289 +428,389 @@ msgstr ""
 #: View/Categories/edit.ctp:10
 #: View/Categories/index.ctp:10
 #: View/Categories/view.ctp:10;27
-#: View/Movies/add.ctp:15
-#: View/Movies/edit.ctp:16
-#: View/Movies/index.ctp:16
-#: View/Movies/view.ctp:19;62
+#: View/Movies/add.ctp:18
+#: View/Movies/edit.ctp:21
+#: View/Movies/index.ctp:19
+#: View/Movies/view.ctp:21;85
 msgid "Category"
 msgstr ""
 
-#: View/Categories/edit.ctp:12
-#: View/Categories/index.ctp:44
-#: View/Categories/view.ctp:13
+#: View/Categories/edit.ctp:13
+#: View/Categories/index.ctp:53
+#: View/Categories/view.ctp:14
 #: View/Cinemas/edit.ctp:12
-#: View/Cinemas/index.ctp:64
-#: View/Cinemas/view.ctp:13;98
+#: View/Cinemas/index.ctp:75
+#: View/Cinemas/view.ctp:16;114
 #: View/CinemasShowings/edit.ctp:9
 #: View/CinemasShowings/index.ctp:49
 #: View/CinemasShowings/view.ctp:10
-#: View/Movies/edit.ctp:12
-#: View/Movies/index.ctp:64
-#: View/Movies/view.ctp:13;101
+#: View/Movies/edit.ctp:16
+#: View/Movies/index.ctp:94
+#: View/Movies/view.ctp:14;134
+#: View/Schedules/edit.ctp:13
+#: View/Schedules/index.ctp:52
+#: View/Schedules/view.ctp:14;84
+#: View/SchedulesShowings/edit.ctp:9
+#: View/SchedulesShowings/index.ctp:49
+#: View/SchedulesShowings/view.ctp:10
 #: View/Showings/edit.ctp:12
-#: View/Showings/index.ctp:64
-#: View/Showings/view.ctp:13;97
-#: View/Users/edit.ctp:12
-#: View/Users/index.ctp:56
-#: View/Users/view.ctp:13;98
+#: View/Showings/index.ctp:93
+#: View/Showings/view.ctp:14;119;164
+#: View/Users/edit.ctp:13
+#: View/Users/index.ctp:72
+#: View/Users/view.ctp:15;122
 msgid "Are you sure you want to delete # %s?"
 msgstr ""
 
-#: View/Categories/edit.ctp:23
-#: View/Categories/view.ctp:12
+#: View/Categories/edit.ctp:25
+#: View/Categories/view.ctp:13
 msgid "Edit Category"
 msgstr ""
 
-#: View/Categories/index.ctp:12
+#: View/Categories/index.ctp:13
 #: View/Categories/view.ctp:15
 msgid "New Category"
 msgstr ""
 
-#: View/Categories/index.ctp:24
-#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:55
+#: View/Categories/index.ctp:26
 msgid "Categories"
 msgstr ""
 
-#: View/Categories/index.ctp:30
+#: View/Categories/index.ctp:32
 #: View/Categories/view.ctp:32
-#: View/Cinemas/view.ctp:44
-#: View/Showings/view.ctp:78
-#: View/Users/view.ctp:81
+#: View/Cinemas/view.ctp:54
+#: View/Ratings/index.ctp:13
+#: View/Ratings/view.ctp:27
+#: View/Showings/view.ctp:96
+#: View/Users/view.ctp:101
 msgid "Name"
 msgstr ""
 
-#: View/Categories/index.ctp:31
+#: View/Categories/index.ctp:33
 #: View/Categories/view.ctp:37
+#: View/Ratings/index.ctp:15
+#: View/Ratings/view.ctp:38
 msgid "Description"
 msgstr ""
 
-#: View/Categories/index.ctp:63
-#: View/Cinemas/index.ctp:83
+#: View/Categories/index.ctp:72
+#: View/Cinemas/index.ctp:94
 #: View/CinemasShowings/index.ctp:67
-#: View/Movies/index.ctp:83
-#: View/Showings/index.ctp:83
-#: View/Users/index.ctp:77
+#: View/Movies/index.ctp:114
+#: View/Ratings/index.ctp:51
+#: View/Schedules/index.ctp:71
+#: View/SchedulesShowings/index.ctp:67
+#: View/Showings/index.ctp:112
+#: View/Users/index.ctp:92
 msgid "Previous"
 msgstr ""
 
-#: View/Categories/index.ctp:65
-#: View/Cinemas/index.ctp:85
+#: View/Categories/index.ctp:74
+#: View/Cinemas/index.ctp:96
 #: View/CinemasShowings/index.ctp:69
-#: View/Movies/index.ctp:85
-#: View/Showings/index.ctp:85
-#: View/Users/index.ctp:79
+#: View/Movies/index.ctp:116
+#: View/Ratings/index.ctp:53
+#: View/Schedules/index.ctp:73
+#: View/SchedulesShowings/index.ctp:69
+#: View/Showings/index.ctp:114
+#: View/Users/index.ctp:94
 msgid "Next"
 msgstr ""
 
-#: View/Categories/view.ctp:13
+#: View/Categories/view.ctp:14
 msgid "Delete Category"
 msgstr ""
 
-#: View/Cinemas/add.ctp:9
-#: View/Cinemas/edit.ctp:10
-#: View/Cinemas/index.ctp:10
-#: View/Cinemas/view.ctp:10;39
+#: View/Cinemas/about.ctp:3
+msgid "<p>Name : "
+msgstr ""
+
+#: View/Cinemas/about.ctp:5
+msgid "<br/> For the course : "
+msgstr ""
+
+#: View/Cinemas/about.ctp:7
+msgid "<p>Option : <br/>"
+msgstr ""
+
+#: View/Cinemas/about.ctp:8
+msgid "<li>Enable upload Image : <b>Poster</b> for the table <b>Movie</b></li>"
+msgstr ""
+
+#: View/Cinemas/about.ctp:9
+msgid "<li>Dynamic Selectbox : <b>Movie</b> depends of <b>Rating</b> in <b>Showing</b></li>"
+msgstr ""
+
+#: View/Cinemas/about.ctp:10
+msgid "<li>Autocomplete : <b>Studio</b> for Add/Edit for <b>Movie</b></li></p>"
+msgstr ""
+
+#: View/Cinemas/about.ctp:11
+msgid "<p>When you're not activated you can't : </p>"
+msgstr ""
+
+#: View/Cinemas/about.ctp:12
+msgid "<p>For an <b>admin</b> :"
+msgstr ""
+
+#: View/Cinemas/about.ctp:13
+msgid "<li>Add new User</li></p>"
+msgstr ""
+
+#: View/Cinemas/about.ctp:14
+msgid "<p>For an <b>gerant</b> :"
+msgstr ""
+
+#: View/Cinemas/about.ctp:15
+msgid "<li>Add/Edit/Delete Showing</li>"
+msgstr ""
+
+#: View/Cinemas/about.ctp:16
+msgid "<li>Add/Edit/Delete Movies</li>"
+msgstr ""
+
+#: View/Cinemas/about.ctp:17
+msgid "<li>Add/Edit/Delete </li></p>"
+msgstr ""
+
+#: View/Cinemas/about.ctp:19
+msgid "<p><br/>Schema of the database : "
+msgstr ""
+
+#: View/Cinemas/add.ctp:8
+#: View/Cinemas/edit.ctp:9
+#: View/Cinemas/index.ctp:9
+#: View/Cinemas/view.ctp:9;49
 #: View/CinemasShowings/view.ctp:38
-#: View/Showings/add.ctp:21
-#: View/Showings/edit.ctp:22
-#: View/Showings/index.ctp:21;45
-#: View/Showings/view.ctp:24
+#: View/Showings/add.ctp:35
+#: View/Showings/edit.ctp:34
+#: View/Showings/index.ctp:35;62
+#: View/Showings/view.ctp:38
 #: View/Users/add.ctp:15
-#: View/Users/edit.ctp:16
-#: View/Users/index.ctp:15
-#: View/Users/view.ctp:18
+#: View/Users/edit.ctp:18
+#: View/Users/index.ctp:17
+#: View/Users/view.ctp:24
 msgid "Cinema"
 msgstr ""
 
-#: View/Cinemas/add.ctp:11
-#: View/Cinemas/edit.ctp:13
-#: View/Cinemas/view.ctp:14
+#: View/Cinemas/add.ctp:10
+#: View/Cinemas/edit.ctp:14
+#: View/Cinemas/view.ctp:18
 #: View/CinemasShowings/add.ctp:10
 #: View/CinemasShowings/edit.ctp:11
 #: View/CinemasShowings/index.ctp:10
 #: View/CinemasShowings/view.ctp:13
-#: View/Showings/add.ctp:23
-#: View/Showings/edit.ctp:24
-#: View/Showings/index.ctp:23
-#: View/Showings/view.ctp:26
+#: View/Showings/add.ctp:37
+#: View/Showings/edit.ctp:36
+#: View/Showings/index.ctp:37
+#: View/Showings/view.ctp:40
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:52
 #: View/Users/add.ctp:17
-#: View/Users/edit.ctp:18
-#: View/Users/index.ctp:17
-#: View/Users/view.ctp:20
+#: View/Users/edit.ctp:20
+#: View/Users/index.ctp:19
+#: View/Users/view.ctp:27
 msgid "List Cinemas"
 msgstr ""
 
-#: View/Cinemas/add.ctp:14
-#: View/Cinemas/edit.ctp:16
-#: View/Cinemas/index.ctp:14
-#: View/Cinemas/view.ctp:18;59
-#: View/Showings/view.ctp:81
+#: View/Cinemas/add.ctp:13
+#: View/Cinemas/edit.ctp:17
+#: View/Cinemas/index.ctp:15
+#: View/Cinemas/view.ctp:22;74
+#: View/Showings/view.ctp:100
 #: View/Users/add.ctp:10
 #: View/Users/edit.ctp:10
 #: View/Users/index.ctp:10
-#: View/Users/view.ctp:10;33
+#: View/Users/view.ctp:10;42
 msgid "User"
 msgstr ""
 
-#: View/Cinemas/add.ctp:16
-#: View/Cinemas/edit.ctp:18
-#: View/Cinemas/index.ctp:16
-#: View/Cinemas/view.ctp:20
+#: View/Cinemas/add.ctp:15
+#: View/Cinemas/edit.ctp:19
+#: View/Cinemas/index.ctp:17
+#: View/Cinemas/view.ctp:24
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:58
 #: View/Users/add.ctp:12
-#: View/Users/edit.ctp:13
-#: View/Users/view.ctp:14
+#: View/Users/edit.ctp:15
+#: View/Users/view.ctp:20
 msgid "List Users"
 msgstr ""
 
-#: View/Cinemas/add.ctp:17
-#: View/Cinemas/edit.ctp:19
-#: View/Cinemas/index.ctp:17
-#: View/Cinemas/view.ctp:21
-#: View/Users/index.ctp:12
-#: View/Users/view.ctp:15
+#: View/Cinemas/edit.ctp:21
+#: View/Cinemas/index.ctp:19
+#: View/Cinemas/view.ctp:26
+#: View/Users/index.ctp:13
+#: View/Users/view.ctp:17
 msgid "New User"
 msgstr ""
 
-#: View/Cinemas/add.ctp:20
-#: View/Cinemas/edit.ctp:22
-#: View/Cinemas/index.ctp:20;44
-#: View/Cinemas/view.ctp:24
+#: View/Cinemas/edit.ctp:25
+#: View/Cinemas/index.ctp:23;50
+#: View/Cinemas/view.ctp:31
 #: View/CinemasShowings/view.ctp:43
-#: View/Movies/add.ctp:21
-#: View/Movies/edit.ctp:22
-#: View/Movies/index.ctp:23
-#: View/Movies/view.ctp:25
-#: View/Showings/add.ctp:10
-#: View/Showings/edit.ctp:10
-#: View/Showings/index.ctp:10
-#: View/Showings/view.ctp:10;39
+#: View/Movies/add.ctp:26
+#: View/Movies/edit.ctp:36
+#: View/Movies/index.ctp:34
+#: View/Movies/view.ctp:36
+#: View/Schedules/add.ctp:15
+#: View/Schedules/edit.ctp:18
+#: View/Schedules/index.ctp:17
+#: View/Schedules/view.ctp:20
+#: View/SchedulesShowings/view.ctp:43
+#: View/Showings/add.ctp:9
+#: View/Showings/edit.ctp:9
+#: View/Showings/index.ctp:11
+#: View/Showings/view.ctp:10;56
 msgid "Showing"
 msgstr ""
 
-#: View/Cinemas/add.ctp:22
-#: View/Cinemas/edit.ctp:24
-#: View/Cinemas/index.ctp:21
-#: View/Cinemas/view.ctp:26
+#: View/Cinemas/edit.ctp:27
+#: View/Cinemas/index.ctp:24
+#: View/Cinemas/view.ctp:33
 #: View/CinemasShowings/add.ctp:12
 #: View/CinemasShowings/edit.ctp:13
 #: View/CinemasShowings/index.ctp:12
 #: View/CinemasShowings/view.ctp:15
-#: View/Movies/add.ctp:23
-#: View/Movies/edit.ctp:24
-#: View/Movies/index.ctp:25
-#: View/Movies/view.ctp:27
+#: View/Movies/add.ctp:28
+#: View/Movies/edit.ctp:38
+#: View/Movies/index.ctp:36
+#: View/Movies/view.ctp:38
+#: View/Schedules/add.ctp:17
+#: View/Schedules/edit.ctp:20
+#: View/Schedules/index.ctp:19
+#: View/Schedules/view.ctp:22
+#: View/SchedulesShowings/add.ctp:12
+#: View/SchedulesShowings/edit.ctp:13
+#: View/SchedulesShowings/index.ctp:12
+#: View/SchedulesShowings/view.ctp:15
 #: View/Showings/add.ctp:12
-#: View/Showings/edit.ctp:13
-#: View/Showings/view.ctp:14
+#: View/Showings/edit.ctp:14
+#: View/Showings/view.ctp:17
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:53
 msgid "List Showings"
 msgstr ""
 
-#: View/Cinemas/add.ctp:23
-#: View/Cinemas/edit.ctp:25
-#: View/Cinemas/index.ctp:22
-#: View/Cinemas/view.ctp:27;110
+#: View/Cinemas/edit.ctp:29
+#: View/Cinemas/index.ctp:26
+#: View/Cinemas/view.ctp:35;128
 #: View/CinemasShowings/add.ctp:13
 #: View/CinemasShowings/edit.ctp:14
 #: View/CinemasShowings/index.ctp:13
 #: View/CinemasShowings/view.ctp:16
-#: View/Movies/add.ctp:24
-#: View/Movies/edit.ctp:25
-#: View/Movies/index.ctp:26
-#: View/Movies/view.ctp:28;113
-#: View/Showings/index.ctp:12
+#: View/Movies/add.ctp:30
+#: View/Movies/edit.ctp:40
+#: View/Movies/index.ctp:38
+#: View/Movies/view.ctp:40;149
+#: View/Schedules/add.ctp:20
+#: View/Schedules/edit.ctp:23
+#: View/Schedules/index.ctp:22
+#: View/Schedules/view.ctp:25;98
+#: View/SchedulesShowings/add.ctp:13
+#: View/SchedulesShowings/edit.ctp:14
+#: View/SchedulesShowings/index.ctp:13
+#: View/SchedulesShowings/view.ctp:16
+#: View/Showings/index.ctp:14
 #: View/Showings/view.ctp:15
 msgid "New Showing"
 msgstr ""
 
-#: View/Cinemas/add.ctp:33
-msgid "Add Cinema"
-msgstr ""
-
-#: View/Cinemas/edit.ctp:35
-#: View/Cinemas/view.ctp:12
+#: View/Cinemas/edit.ctp:40
+#: View/Cinemas/view.ctp:15
 msgid "Edit Cinema"
 msgstr ""
 
 #: View/Cinemas/index.ctp:12
-#: View/Cinemas/view.ctp:15
+#: View/Cinemas/view.ctp:12
 #: View/CinemasShowings/add.ctp:11
 #: View/CinemasShowings/edit.ctp:12
 #: View/CinemasShowings/index.ctp:11
 #: View/CinemasShowings/view.ctp:14
-#: View/Showings/add.ctp:24
-#: View/Showings/edit.ctp:25
-#: View/Showings/index.ctp:24
-#: View/Showings/view.ctp:27;109
-#: View/Users/add.ctp:18
-#: View/Users/edit.ctp:19
-#: View/Users/index.ctp:18
-#: View/Users/view.ctp:21;110
+#: View/Showings/add.ctp:39
+#: View/Showings/edit.ctp:38
+#: View/Showings/index.ctp:39
+#: View/Showings/view.ctp:42;133
+#: View/Users/add.ctp:19
+#: View/Users/edit.ctp:22
+#: View/Users/index.ctp:21
+#: View/Users/view.ctp:29;136
 msgid "New Cinema"
 msgstr ""
 
-#: View/Cinemas/index.ctp:34
-#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:52
+#: View/Cinemas/index.ctp:39
 msgid "Cinemas"
 msgstr ""
 
-#: View/Cinemas/index.ctp:40
+#: View/Cinemas/index.ctp:45
 msgid "name"
 msgstr ""
 
-#: View/Cinemas/index.ctp:41
+#: View/Cinemas/index.ctp:46
+msgid "society"
+msgstr ""
+
+#: View/Cinemas/index.ctp:47
 msgid "adress"
 msgstr ""
 
-#: View/Cinemas/index.ctp:42
+#: View/Cinemas/index.ctp:48
+#: Model/Cinema.php:validation for field phone
 msgid "phone"
 msgstr ""
 
-#: View/Cinemas/index.ctp:43
+#: View/Cinemas/index.ctp:49
 msgid "user_id"
 msgstr ""
 
-#: View/Cinemas/view.ctp:13
+#: View/Cinemas/view.ctp:16
 msgid "Delete Cinema"
 msgstr ""
 
-#: View/Cinemas/view.ctp:49
-#: View/Showings/view.ctp:79
-#: View/Users/view.ctp:82
+#: View/Cinemas/view.ctp:59
+#: View/Showings/view.ctp:97
+#: View/Users/view.ctp:102
+msgid "Society"
+msgstr ""
+
+#: View/Cinemas/view.ctp:64
+#: View/Showings/view.ctp:98
+#: View/Users/view.ctp:103
 msgid "Adress"
 msgstr ""
 
-#: View/Cinemas/view.ctp:54
-#: View/Showings/view.ctp:80
-#: View/Users/view.ctp:83
+#: View/Cinemas/view.ctp:69
+#: View/Showings/view.ctp:99
+#: View/Users/view.ctp:104
 msgid "Phone"
 msgstr ""
 
-#: View/Cinemas/view.ctp:73
-#: View/Movies/view.ctp:76
+#: View/Cinemas/view.ctp:88
+#: View/Movies/view.ctp:105
+#: View/Schedules/view.ctp:57
 msgid "Related Showings"
 msgstr ""
 
-#: View/Cinemas/view.ctp:81
-#: View/Movies/view.ctp:84
-#: View/Showings/view.ctp:45
+#: View/Cinemas/view.ctp:96
+#: View/Movies/view.ctp:113
+#: View/Schedules/view.ctp:65
+#: View/Showings/view.ctp:62
 msgid "Date"
 msgstr ""
 
-#: View/Cinemas/view.ctp:82
-#: View/Movies/view.ctp:85
-#: View/Showings/view.ctp:50
+#: View/Cinemas/view.ctp:97
+#: View/Movies/view.ctp:114
+#: View/Showings/view.ctp:67
 msgid "Price"
 msgstr ""
 
-#: View/Cinemas/view.ctp:83
-#: View/Movies/add.ctp:10
-#: View/Movies/edit.ctp:10
-#: View/Movies/index.ctp:10
-#: View/Movies/view.ctp:10;40;86
-#: View/Showings/add.ctp:15
-#: View/Showings/edit.ctp:16
-#: View/Showings/index.ctp:15
-#: View/Showings/view.ctp:18;55
+#: View/Cinemas/view.ctp:98
+#: View/Movies/add.ctp:13
+#: View/Movies/edit.ctp:13
+#: View/Movies/index.ctp:11
+#: View/Movies/view.ctp:10;53;115
+#: View/Schedules/view.ctp:67
+#: View/Showings/add.ctp:17
+#: View/Showings/edit.ctp:17
+#: View/Showings/index.ctp:18
+#: View/Showings/view.ctp:21;72
 msgid "Movie"
 msgstr ""
 
@@ -673,106 +846,268 @@ msgstr ""
 msgid "Cinemas Showing"
 msgstr ""
 
-#: View/Movies/add.ctp:12
-#: View/Movies/edit.ctp:13
-#: View/Movies/view.ctp:14
-#: View/Showings/add.ctp:17
-#: View/Showings/edit.ctp:18
-#: View/Showings/index.ctp:17
-#: View/Showings/view.ctp:20
+#: View/Emails/html/signup.ctp:3
+msgid "<p><strong>Hi "
+msgstr ""
+
+#: View/Emails/html/signup.ctp:7
+msgid "Have a good day"
+msgstr ""
+
+#: View/Emails/html/signup.ctp:8
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:9
+msgid "Cinemamenic"
+msgstr ""
+
+#: View/Movies/add.ctp:15
+#: View/Movies/edit.ctp:18
+#: View/Movies/view.ctp:17
+#: View/Showings/add.ctp:19
+#: View/Showings/edit.ctp:19
+#: View/Showings/index.ctp:20
+#: View/Showings/view.ctp:23
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:56
 msgid "List Movies"
 msgstr ""
 
-#: View/Movies/add.ctp:18
-#: View/Movies/edit.ctp:19
-#: View/Movies/index.ctp:19
-#: View/Movies/view.ctp:22
+#: View/Movies/add.ctp:22
+#: View/Movies/edit.ctp:25
+#: View/Movies/index.ctp:23
+#: View/Movies/view.ctp:25
 msgid "New Categories"
 msgstr ""
 
-#: View/Movies/add.ctp:34
+#: View/Movies/add.ctp:41
 msgid "Add Movie"
 msgstr ""
 
-#: View/Movies/edit.ctp:35
-#: View/Movies/view.ctp:12
+#: View/Movies/add.ctp:65
+#: View/Movies/edit.ctp:78
+msgid "Uploaded File"
+msgstr ""
+
+#: View/Movies/edit.ctp:30
+#: View/Movies/index.ctp:28
+#: View/Movies/view.ctp:30;90
+#: View/Ratings/view.ctp:10;22
+msgid "Rating"
+msgstr ""
+
+#: View/Movies/edit.ctp:32
+#: View/Movies/index.ctp:30
+#: View/Movies/view.ctp:32
+#: View/Ratings/view.ctp:12
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:55
+msgid "List Ratings"
+msgstr ""
+
+#: View/Movies/edit.ctp:51
+#: View/Movies/view.ctp:13
 msgid "Edit Movie"
 msgstr ""
 
-#: View/Movies/index.ctp:12
+#: View/Movies/index.ctp:14
 #: View/Movies/view.ctp:15
-#: View/Showings/add.ctp:18
-#: View/Showings/edit.ctp:19
-#: View/Showings/index.ctp:18
-#: View/Showings/view.ctp:21
+#: View/Showings/add.ctp:21
+#: View/Showings/edit.ctp:21
+#: View/Showings/index.ctp:22
+#: View/Showings/view.ctp:25
 msgid "New Movie"
 msgstr ""
 
-#: View/Movies/index.ctp:38
-#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:54
+#: View/Movies/index.ctp:51
 msgid "Movies"
 msgstr ""
 
-#: View/Movies/index.ctp:44
-#: View/Movies/view.ctp:47
+#: View/Movies/index.ctp:57
+#: View/Movies/view.ctp:60
 msgid "Title"
 msgstr ""
 
-#: View/Movies/index.ctp:45
-#: View/Movies/view.ctp:52
+#: View/Movies/index.ctp:58
+#: View/Movies/view.ctp:65
 msgid "Year"
 msgstr ""
 
-#: View/Movies/index.ctp:46
-#: View/Movies/view.ctp:57
+#: View/Movies/index.ctp:59
+#: View/Movies/view.ctp:70
+msgid "Studio"
+msgstr ""
+
+#: View/Movies/index.ctp:60
+#: View/Movies/view.ctp:75
 msgid "Summary"
 msgstr ""
 
-#: View/Movies/index.ctp:47
+#: View/Movies/index.ctp:61
+#: View/Movies/view.ctp:80
+msgid "Poster"
+msgstr ""
+
+#: View/Movies/index.ctp:62
 msgid "category_id"
 msgstr ""
 
-#: View/Movies/view.ctp:13
+#: View/Movies/index.ctp:63
+msgid "rating_id"
+msgstr ""
+
+#: View/Movies/view.ctp:14
 msgid "Delete Movie"
 msgstr ""
 
-#: View/Showings/add.ctp:34
+#: View/Ratings/index.ctp:7
+msgid "Ratings"
+msgstr ""
+
+#: View/Ratings/index.ctp:14
+#: View/Ratings/view.ctp:32
+msgid "Acronym"
+msgstr ""
+
+#: View/Schedules/add.ctp:10
+#: View/Schedules/edit.ctp:10
+#: View/Schedules/index.ctp:10
+#: View/Schedules/view.ctp:10;38
+#: View/SchedulesShowings/view.ctp:38
+#: View/Showings/add.ctp:26
+#: View/Showings/edit.ctp:25
+#: View/Showings/index.ctp:26;59
+#: View/Showings/view.ctp:29
+msgid "Schedule"
+msgstr ""
+
+#: View/Schedules/add.ctp:12
+#: View/Schedules/edit.ctp:15
+#: View/Schedules/view.ctp:17
+#: View/SchedulesShowings/add.ctp:10
+#: View/SchedulesShowings/edit.ctp:11
+#: View/SchedulesShowings/index.ctp:10
+#: View/SchedulesShowings/view.ctp:13
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:54
+msgid "List Schedules"
+msgstr ""
+
+#: View/Schedules/add.ctp:31
+msgid "Add Schedule"
+msgstr ""
+
+#: View/Schedules/edit.ctp:34
+#: View/Schedules/view.ctp:13
+msgid "Edit Schedule"
+msgstr ""
+
+#: View/Schedules/index.ctp:13
+#: View/Schedules/view.ctp:15
+#: View/SchedulesShowings/add.ctp:11
+#: View/SchedulesShowings/edit.ctp:12
+#: View/SchedulesShowings/index.ctp:11
+#: View/SchedulesShowings/view.ctp:14
+#: View/Showings/add.ctp:30
+#: View/Showings/edit.ctp:29
+#: View/Showings/index.ctp:30
+#: View/Showings/view.ctp:33;178
+msgid "New Schedule"
+msgstr ""
+
+#: View/Schedules/index.ctp:34
+msgid "Schedules"
+msgstr ""
+
+#: View/Schedules/view.ctp:14
+msgid "Delete Schedule"
+msgstr ""
+
+#: View/Schedules/view.ctp:43
+#: View/Showings/view.ctp:147
+msgid "Time"
+msgstr ""
+
+#: View/Schedules/view.ctp:66
+msgid "Prix"
+msgstr ""
+
+#: View/SchedulesShowings/add.ctp:9
+#: View/SchedulesShowings/edit.ctp:10
+#: View/SchedulesShowings/view.ctp:11
+msgid "List Schedules Showings"
+msgstr ""
+
+#: View/SchedulesShowings/add.ctp:22
+msgid "Add Schedules Showing"
+msgstr ""
+
+#: View/SchedulesShowings/edit.ctp:23
+#: View/SchedulesShowings/view.ctp:9
+msgid "Edit Schedules Showing"
+msgstr ""
+
+#: View/SchedulesShowings/index.ctp:9
+#: View/SchedulesShowings/view.ctp:12
+msgid "New Schedules Showing"
+msgstr ""
+
+#: View/SchedulesShowings/index.ctp:24
+msgid "Schedules Showings"
+msgstr ""
+
+#: View/SchedulesShowings/view.ctp:10
+msgid "Delete Schedules Showing"
+msgstr ""
+
+#: View/SchedulesShowings/view.ctp:28
+msgid "Schedules Showing"
+msgstr ""
+
+#: View/Showings/add.ctp:28
+#: View/Showings/edit.ctp:27
+#: View/Showings/index.ctp:28
+#: View/Showings/view.ctp:31
+msgid "List Schedule"
+msgstr ""
+
+#: View/Showings/add.ctp:50
 msgid "Add Showing"
 msgstr ""
 
-#: View/Showings/edit.ctp:35
-#: View/Showings/view.ctp:12
+#: View/Showings/edit.ctp:49
+#: View/Showings/view.ctp:13
 msgid "Edit Showing"
 msgstr ""
 
-#: View/Showings/index.ctp:36
-#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:53
+#: View/Showings/index.ctp:52
 msgid "Showings"
 msgstr ""
 
-#: View/Showings/index.ctp:42
+#: View/Showings/index.ctp:58
+#: Model/Showing.php:validation for field date
 msgid "date"
 msgstr ""
 
-#: View/Showings/index.ctp:43
+#: View/Showings/index.ctp:60
 msgid "price"
 msgstr ""
 
-#: View/Showings/index.ctp:44
+#: View/Showings/index.ctp:61
 msgid "movie_id"
 msgstr ""
 
-#: View/Showings/view.ctp:13
+#: View/Showings/view.ctp:14
 msgid "Delete Showing"
 msgstr ""
 
-#: View/Showings/view.ctp:69
-#: View/Users/view.ctp:73
+#: View/Showings/view.ctp:87
+#: View/Users/view.ctp:93
 msgid "Related Cinemas"
 msgstr ""
 
-#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:9
-msgid "Cinemamenic"
+#: View/Showings/view.ctp:138
+msgid "Related Schedule"
+msgstr ""
+
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:26
+#: View/Users/add.ctp:30
+msgid "Add User"
 msgstr ""
 
 #: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:37
@@ -788,86 +1123,119 @@ msgstr ""
 msgid "Go to"
 msgstr ""
 
-#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:56
-#: View/Users/index.ctp:30
-msgid "Users"
+#: View/Themed/Cakestrap/Elements/menu/top_menu.ctp:72
+msgid "About"
 msgstr ""
 
-#: View/Users/add.ctp:28
-msgid "Add User"
-msgstr ""
-
-#: View/Users/edit.ctp:29
-#: View/Users/view.ctp:12
+#: View/Users/edit.ctp:33
+#: View/Users/view.ctp:14
 msgid "Edit User"
 msgstr ""
 
-#: View/Users/index.ctp:36
-msgid "username"
-msgstr ""
-
-#: View/Users/index.ctp:37
-msgid "e-mail"
-msgstr ""
-
-#: View/Users/index.ctp:38
-msgid "role"
-msgstr ""
-
-#: View/Users/index.ctp:39
-msgid "created"
+#: View/Users/index.ctp:34
+msgid "Users"
 msgstr ""
 
 #: View/Users/index.ctp:40
+msgid "username"
+msgstr ""
+
+#: View/Users/index.ctp:41
+msgid "e-mail"
+msgstr ""
+
+#: View/Users/index.ctp:42
+#: View/Users/view.ctp:60
+msgid "Active"
+msgstr ""
+
+#: View/Users/index.ctp:43
+msgid "role"
+msgstr ""
+
+#: View/Users/index.ctp:44
+msgid "created"
+msgstr ""
+
+#: View/Users/index.ctp:45
 msgid "modified"
+msgstr ""
+
+#: View/Users/index.ctp:57
+#: View/Users/view.ctp:62
+msgid "Is active"
+msgstr ""
+
+#: View/Users/index.ctp:59
+#: View/Users/view.ctp:65
+msgid "<font color=\"red\">Not active</font>"
+msgstr ""
+
+#: View/Users/index.ctp:62
+msgid " "
 msgstr ""
 
 #: View/Users/login.ctp:6
 msgid "Please enter your username and password"
 msgstr ""
 
-#: View/Users/view.ctp:13
+#: View/Users/view.ctp:15
 msgid "Delete User"
 msgstr ""
 
-#: View/Users/view.ctp:39
+#: View/Users/view.ctp:48
 msgid "Username"
 msgstr ""
 
-#: View/Users/view.ctp:44
+#: View/Users/view.ctp:53
 msgid "E-mail"
 msgstr ""
 
-#: View/Users/view.ctp:49
+#: View/Users/view.ctp:69
 msgid "Role"
 msgstr ""
 
-#: View/Users/view.ctp:54
+#: View/Users/view.ctp:74
 msgid "Created"
 msgstr ""
 
-#: View/Users/view.ctp:59
+#: View/Users/view.ctp:79
 msgid "Modified"
 msgstr ""
 
 #: Model/Category.php:validation for field nom;validation for field description
-#: Model/Cinema.php:validation for field name;validation for field adress;validation for field phone
-#: Model/Movie.php:validation for field titre;validation for field resume
+#: Model/Cinema.php:validation for field id;validation for field name
+#: Model/Movie.php:validation for field titre
+#: Model/Rating.php:validation for field name;validation for field Acronyme
+#: Model/Schedule.php:validation for field id;validation for field time
+#: Model/SchedulesShowing.php:validation for field id;validation for field schedule_id;validation for field showing_id
+#: Model/Showing.php:validation for field id;validation for field date
 msgid "notBlank"
 msgstr ""
 
+#: Model/Cinema.php:validation for field id
 #: Model/CinemasShowing.php:validation for field cinema_id;validation for field showing_id
-#: Model/Movie.php:validation for field annee;validation for field category_id
-#: Model/Showing.php:validation for field movie_id
+#: Model/Movie.php:validation for field annee;validation for field category_id;validation for field rating_id
+#: Model/Schedule.php:validation for field id
+#: Model/SchedulesShowing.php:validation for field id;validation for field schedule_id;validation for field showing_id
+#: Model/Showing.php:validation for field id;validation for field movie_id
 msgid "numeric"
 msgstr ""
 
-#: Model/Showing.php:validation for field date
-msgid "datetime"
+#: Model/Cinema.php:validation for field society
+msgid "alphaNumeric"
+msgstr ""
+
+#: Model/Schedule.php:validation for field time
+msgid "time"
+msgstr ""
+
+#: Model/Schedule.php:validation for field holiday
+msgid "Offert during holiday?"
 msgstr ""
 
 #: Model/Showing.php:validation for field prix
-msgid "decimal"
+msgid "money"
 msgstr ""
 
 #: Model/User.php:validation for field email
@@ -900,521 +1268,5 @@ msgstr ""
 
 #: Plugin/i18n/Model/Translation.php:validation for field field
 msgid "Please enter a Field"
-msgstr ""
-
-#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:41
-msgid "-> Testing :url"
-msgstr ""
-
-#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:67
-msgid "Total Requests made: :requests"
-msgstr ""
-
-#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:68
-msgid "Total Time elapsed: :duration (seconds)"
-msgstr ""
-
-#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:72
-msgid "Requests/Second: :rps req/sec"
-msgstr ""
-
-#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:76
-msgid "Average request time: :average-time seconds"
-msgstr ""
-
-#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:80
-msgid "Standard deviation of average request time: :std-dev"
-msgstr ""
-
-#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:84
-msgid "Longest/shortest request: :longest sec/:shortest sec"
-msgstr ""
-
-#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:134
-msgid "Allows you to obtain some rough benchmarking statisticsabout a fully qualified URL."
-msgstr ""
-
-#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:139
-msgid "The URL to request."
-msgstr ""
-
-#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:144
-msgid "Number of iterations to perform."
-msgstr ""
-
-#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:148
-msgid "Maximum total time for all iterations, in seconds.If a single iteration takes more than the timeout, only one request will be made"
-msgstr ""
-
-#: Plugin/DebugKit/Console/Command/BenchmarkShell.php:152
-msgid "Example Use: `cake benchmark --n 10 --t 100 http://localhost/testsite`. <info>Note:</info> this benchmark does not include browser render times."
-msgstr ""
-
-#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:159
-msgid "Component initialization"
-msgstr ""
-
-#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:281
-msgid "Controller action"
-msgstr ""
-
-#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:284
-msgid "Controller action start"
-msgstr ""
-
-#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:304
-msgid "Processing toolbar state"
-msgstr ""
-
-#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:327
-msgid "Processing toolbar data"
-msgstr ""
-
-#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:362
-msgid "Controller render start"
-msgstr ""
-
-#: Plugin/DebugKit/Controller/Component/ToolbarComponent.php:446
-msgid "Could not load DebugToolbar panel %s"
-msgstr ""
-
-#: Plugin/DebugKit/Lib/DebugTimer.php:128
-msgid "Core Processing (Derived from $_SERVER[\"REQUEST_TIME\"])"
-msgstr ""
-
-#: Plugin/DebugKit/Lib/FireCake.php:310
-msgid "Headers already sent in %s on line %s. Cannot send log data to FirePHP."
-msgstr ""
-
-#: Plugin/DebugKit/Lib/FireCake.php:331
-msgid "Incorrect parameter count for FireCake::fb()"
-msgstr ""
-
-#: Plugin/DebugKit/Lib/FireCake.php:410
-msgid "Maximum number (99,999) of messages reached!"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/debug_toolbar.ctp:23
-msgid "There are no active panels. You must enable a panel to see its output."
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/environment_panel.ctp:20
-msgid "App Constants"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/environment_panel.ctp:36
-msgid "CakePHP Constants"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/environment_panel.ctp:52
-msgid "PHP Environment"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/environment_panel.ctp:70
-msgid "Hidef Environment"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/history_panel.ctp:19
-msgid "Request History"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/history_panel.ctp:21
-msgid "No previous requests logged."
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/history_panel.ctp:23
-msgid "previous requests available"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/history_panel.ctp:25
-msgid "Restore to current request"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/include_panel.ctp:19
-msgid "Included Files"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/log_panel.ctp:19
-msgid "Logs"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/log_panel.ctp:27
-msgid "Time"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/log_panel.ctp:27
-#: Plugin/DebugKit/View/Elements/timer_panel.ctp:42;66
-msgid "Message"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/log_panel.ctp:38
-msgid "There were no log entries made this request"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/request_panel.ctp:19
-msgid "Request"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/request_panel.ctp:27
-msgid "No post data."
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/request_panel.ctp:36
-msgid "No querystring data."
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/request_panel.ctp:49
-msgid "Current Route"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/session_panel.ctp:19
-msgid "Session"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:24
-msgid "Sql Logs"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:39
-msgid "No query logs when debug < 2."
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:41
-msgid "No query logs."
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:58
-msgid "Total Time: %s ms <br />Total Queries: %s queries"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:67
-msgid "%s duplicate queries run."
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:70
-msgid "Query Explain:"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:73
-msgid "Click an \"Explain\" link above, to see the query explanation."
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/sql_log_panel.ctp:79
-msgid "No active database connections"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/timer_panel.ctp:35
-msgid "Memory"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/timer_panel.ctp:38
-msgid "Peak Memory Use"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/timer_panel.ctp:42
-msgid "Memory use"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/timer_panel.ctp:55
-msgid "Timers"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/timer_panel.ctp:57
-msgid "%s (ms)"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/timer_panel.ctp:58
-msgid "Total Request Time:"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/timer_panel.ctp:67
-msgid "Time in ms"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/timer_panel.ctp:68
-msgid "Graph"
-msgstr ""
-
-#: Plugin/DebugKit/View/Elements/variables_panel.ctp:19
-msgid "View Variables"
-msgstr ""
-
-#: Plugin/DebugKit/View/Helper/DebugTimerHelper.php:45
-msgid "Rendering View"
-msgstr ""
-
-#: Plugin/DebugKit/View/Helper/DebugTimerHelper.php:60
-msgid "Rendering %s"
-msgstr ""
-
-#: Plugin/DebugKit/View/Helper/DebugTimerHelper.php:86
-msgid "View render complete"
-msgstr ""
-
-#: Plugin/DebugKit/View/Helper/HtmlToolbarHelper.php:230
-msgid "Explain"
-msgstr ""
-
-#: Plugin/DebugKit/View/Helper/SimpleGraphHelper.php:80
-msgid "Starting %sms into the request, taking %sms"
-msgstr ""
-
-#: Plugin/DebugKit/View/Helper/TidyHelper.php:99
-msgid "No markup errors found"
-msgstr ""
-
-#: Plugin/DebugKit/View/Helper/ToolbarHelper.php:190
-msgid "maybe slow"
-msgstr ""
-
-#: Plugin/DebugKit/Console/Command/WhitespaceShell.php:90
-msgid "Absolute path or relative to APP."
-msgstr ""
-
-#: View/Errors/error400.ctp:19
-#: View/Errors/error500.ctp:19
-msgid "Error"
-msgstr ""
-
-#: View/Errors/error400.ctp:21
-msgid "The requested address %s was not found on this server."
-msgstr ""
-
-#: View/Errors/error500.ctp:20
-msgid "An Internal Error Has Occurred."
-msgstr ""
-
-#: View/Layouts/default.ctp:17
-#: View/Layouts/error.ctp:17
-#: View/Themed/Cakestrap/Layouts/default.ctp:19
-msgid "CakePHP: the rapid development php framework"
-msgstr ""
-
-#: View/Layouts/default.ctp:18
-msgid "CakePHP %s"
-msgstr ""
-
-#: View/Pages/home.ctp:14
-msgid "Release Notes for CakePHP %s."
-msgstr ""
-
-#: View/Pages/home.ctp:16
-msgid "Read the changelog"
-msgstr ""
-
-#: View/Pages/home.ctp:25
-msgid "URL rewriting is not properly configured on your server."
-msgstr ""
-
-#: View/Pages/home.ctp:34
-msgid "Your version of PHP is 5.2.8 or higher."
-msgstr ""
-
-#: View/Pages/home.ctp:38
-msgid "Your version of PHP is too low. You need PHP 5.2.8 or higher to use CakePHP."
-msgstr ""
-
-#: View/Pages/home.ctp:47
-msgid "Your tmp directory is writable."
-msgstr ""
-
-#: View/Pages/home.ctp:51
-msgid "Your tmp directory is NOT writable."
-msgstr ""
-
-#: View/Pages/home.ctp:61
-msgid "The %s is being used for core caching. To change the config edit %s"
-msgstr ""
-
-#: View/Pages/home.ctp:65
-msgid "Your cache is NOT working. Please check the settings in %s"
-msgstr ""
-
-#: View/Pages/home.ctp:75
-msgid "Your database configuration file is present."
-msgstr ""
-
-#: View/Pages/home.ctp:80
-msgid "Your database configuration file is NOT present."
-msgstr ""
-
-#: View/Pages/home.ctp:82
-msgid "Rename %s to %s"
-msgstr ""
-
-#: View/Pages/home.ctp:107
-msgid "CakePHP is able to connect to the database."
-msgstr ""
-
-#: View/Pages/home.ctp:111
-msgid "CakePHP is NOT able to connect to the database."
-msgstr ""
-
-#: View/Pages/home.ctp:124
-msgid "PCRE has not been compiled with Unicode support."
-msgstr ""
-
-#: View/Pages/home.ctp:126
-msgid "Recompile PCRE with Unicode support by adding <code>--enable-unicode-properties</code> when configuring"
-msgstr ""
-
-#: View/Pages/home.ctp:135
-msgid "DebugKit plugin is present"
-msgstr ""
-
-#: View/Pages/home.ctp:139
-msgid "DebugKit is not installed. It will help you inspect and debug different aspects of your application."
-msgstr ""
-
-#: View/Pages/home.ctp:141
-msgid "You can install it from %s"
-msgstr ""
-
-#: View/Pages/home.ctp:147
-msgid "Editing this Page"
-msgstr ""
-
-#: View/Pages/home.ctp:150
-msgid "To change the content of this page, edit: %s.<br />\nTo change its layout, edit: %s.<br />\nYou can also add some CSS styles for your pages at: %s."
-msgstr ""
-
-#: View/Pages/home.ctp:157
-msgid "Getting Started"
-msgstr ""
-
-#: View/Pages/home.ctp:161
-msgid "New"
-msgstr ""
-
-#: View/Pages/home.ctp:161
-msgid "CakePHP 2.0 Docs"
-msgstr ""
-
-#: View/Pages/home.ctp:170
-msgid "The 15 min Blog Tutorial"
-msgstr ""
-
-#: View/Pages/home.ctp:177
-msgid "Official Plugins"
-msgstr ""
-
-#: View/Pages/home.ctp:182
-msgid "provides a debugging toolbar and enhanced debugging tools for CakePHP applications."
-msgstr ""
-
-#: View/Pages/home.ctp:186
-msgid "contains various localized validation classes and translations for specific countries"
-msgstr ""
-
-#: View/Pages/home.ctp:191
-msgid "More about CakePHP"
-msgstr ""
-
-#: View/Pages/home.ctp:193
-msgid "CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC."
-msgstr ""
-
-#: View/Pages/home.ctp:196
-msgid "Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility."
-msgstr ""
-
-#: View/Pages/home.ctp:201
-msgid "The Rapid Development Framework"
-msgstr ""
-
-#: View/Pages/home.ctp:202
-msgid "CakePHP Documentation"
-msgstr ""
-
-#: View/Pages/home.ctp:203
-msgid "Your Rapid Development Cookbook"
-msgstr ""
-
-#: View/Pages/home.ctp:204
-msgid "CakePHP API"
-msgstr ""
-
-#: View/Pages/home.ctp:205
-msgid "Quick API Reference"
-msgstr ""
-
-#: View/Pages/home.ctp:206
-msgid "The Bakery"
-msgstr ""
-
-#: View/Pages/home.ctp:207
-msgid "Everything CakePHP"
-msgstr ""
-
-#: View/Pages/home.ctp:208
-msgid "CakePHP Plugins"
-msgstr ""
-
-#: View/Pages/home.ctp:209
-msgid "A comprehensive list of all CakePHP plugins created by the community"
-msgstr ""
-
-#: View/Pages/home.ctp:210
-msgid "CakePHP Community Center"
-msgstr ""
-
-#: View/Pages/home.ctp:211
-msgid "Everything related to the CakePHP community in one place"
-msgstr ""
-
-#: View/Pages/home.ctp:212
-msgid "CakePHP Google Group"
-msgstr ""
-
-#: View/Pages/home.ctp:213
-msgid "Community mailing list"
-msgstr ""
-
-#: View/Pages/home.ctp:215
-msgid "Live chat about CakePHP"
-msgstr ""
-
-#: View/Pages/home.ctp:216
-msgid "CakePHP Code"
-msgstr ""
-
-#: View/Pages/home.ctp:217
-msgid "Find the CakePHP code on GitHub and contribute to the framework"
-msgstr ""
-
-#: View/Pages/home.ctp:218;219
-msgid "CakePHP Issues"
-msgstr ""
-
-#: View/Pages/home.ctp:220;221
-msgid "CakePHP Roadmaps"
-msgstr ""
-
-#: View/Pages/home.ctp:222
-msgid "Training"
-msgstr ""
-
-#: View/Pages/home.ctp:223
-msgid "Join a live session and get skilled with the framework"
-msgstr ""
-
-#: View/Pages/home.ctp:224
-msgid "CakeFest"
-msgstr ""
-
-#: View/Pages/home.ctp:225
-msgid "Don't miss our annual CakePHP conference"
-msgstr ""
-
-#: View/Pages/home.ctp:226
-msgid "Cake Software Foundation"
-msgstr ""
-
-#: View/Pages/home.ctp:227
-msgid "Promoting development related to CakePHP"
-msgstr ""
-
-#: webroot/test.php:103
-msgid "Debug setting does not allow access to this url."
 msgstr ""
 

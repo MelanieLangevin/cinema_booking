@@ -5,25 +5,27 @@
         <div class="actions">
 
             <ul class="list-group">
-                <div class="dropdown"><?php if ($this->Session->check('Auth.User')) { ?>
+                <div class="dropdown">
+                    <?php if ($this->Session->check('Auth.User')) { ?>
                     <a href="#" class="list-group-item" data-toggle="dropdown"><?php echo __('Cinema'); ?><b class="caret"></b></a>
                     <ul class="dropdown-menu">
-
                         <li class="list-group-item"><?php echo $this->Html->link(__('New Cinema'), array('action' => 'add'), array('class' => '')); ?></li>
-
-                    </ul><?php } ?> </div> <div class="dropdown">
+                    </ul>
+                        <?php } ?>
+                </div> 
+                <div class="dropdown">
                     <a href="#" class="list-group-item" data-toggle="dropdown"><?php echo __('User'); ?><b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li class="list-group-item"><?php echo $this->Html->link(__('List Users'), array('controller' => 'users', 'action' => 'index'), array('class' => '')); ?></li> 
                         <?php if ($this->Session->read('Auth.User.role') == "admin" && $this->Session->read('Auth.User.active') == 1) { ?>				
-                            <li class="list-group-item"><?php echo $this->Html->link(__('New User'), array('controller' => 'users', 'action' => 'add'), array('class' => '')); ?></li> 
+                        <li class="list-group-item"><?php echo $this->Html->link(__('New User'), array('controller' => 'users', 'action' => 'add'), array('class' => '')); ?></li> 
                         <?php } ?>                                
                     </ul></div> 
                 <div class="dropdown">
                     <a href="#" class="list-group-item" data-toggle="dropdown"><?php echo __('Showing'); ?><b class="caret"></b></a>
                     <ul class="dropdown-menu"><li class="list-group-item"><?php echo $this->Html->link(__('List Showings'), array('controller' => 'showings', 'action' => 'index'), array('class' => '')); ?></li> 
                         <?php if ( $this->Session->read('Auth.User.active') == "1" || $this->Session->read('Auth.User.role') == "admin") { ?>				
-                            <li class="list-group-item"><?php echo $this->Html->link(__('New Showing'), array('controller' => 'showings', 'action' => 'add'), array('class' => '')); ?></li> 
+                        <li class="list-group-item"><?php echo $this->Html->link(__('New Showing'), array('controller' => 'showings', 'action' => 'add'), array('class' => '')); ?></li> 
                         <?php } ?>                                
                     </ul></div>
             </ul><!-- /.list-group -->
@@ -53,29 +55,31 @@
                     </thead>
                     <tbody>
                         <?php foreach ($cinemas as $cinema): ?>
-                            <tr>
-                                <td><?php echo h($cinema['Cinema']['name']); ?>&nbsp;</td>
-                                <td><?php echo h($cinema['Cinema']['society']); ?>&nbsp;</td>
-                                <td><?php echo h($cinema['Cinema']['adress']); ?>&nbsp;</td>
-                                <td><?php echo h($cinema['Cinema']['phone']); ?>&nbsp;</td>
-                                <td>
+                        <tr>
+                            <td><?php echo h($cinema['Cinema']['name']); ?>&nbsp;</td>
+                            <td><?php echo h($cinema['Cinema']['society']); ?>&nbsp;</td>
+                            <td><?php echo h($cinema['Cinema']['adress']); ?>&nbsp;</td>
+                            <td><?php echo h($cinema['Cinema']['phone']); ?>&nbsp;</td>
+                            <td>
                                     <?php echo $this->Html->link($cinema['User']['username'], array('controller' => 'users', 'action' => 'view', $cinema['User']['id'])); ?>
-                                </td>
+                            </td>
 
-                                <td><?php
+                            <td><?php
                                     foreach ($cinema['Showing'] as $showing) {
                                         echo $this->Html->link($showing['date'], array('controller' => 'showings', 'action' => 'view', $showing['id']));
                                         echo '<br/>';
                                     }
                                     ?></td>
-                                <td class="actions">
+                            <td class="actions">
                                     <?php echo $this->Html->link(__('View'), array('action' => 'view', $cinema['Cinema']['id']), array('class' => 'btn btn-default btn-xs')); ?>
-                                    <?php if ($this->Session->read('Auth.User.role') == "admin" || $this->Session->read('Auth.User.id') == $cinema['Cinema']['user_id']) { ?>
+
+                                        <?php if ($this->Session->read('Auth.User.role') == "admin" || $this->Session->read('Auth.User.id') == $cinema['Cinema']['user_id']) { ?>
                                     <?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $cinema['Cinema']['id']), array('class' => 'btn btn-default btn-xs')); ?>
                                     <?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $cinema['Cinema']['id']), array('class' => 'btn btn-default btn-xs'), __('Are you sure you want to delete # %s?', $cinema['Cinema']['id'])); ?>
-                                    </td>
-                            <?php } ?>
-                            </tr>
+                                    <?php } ?>
+                            </td>
+
+                        </tr>
 <?php endforeach; ?>
                     </tbody>
                 </table>

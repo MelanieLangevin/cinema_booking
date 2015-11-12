@@ -67,10 +67,10 @@
                     <?php echo $this->Form->input('prix', array('class' => 'form-control')); ?>
                 </div><!-- .form-group -->
                 <div class="form-group">
-                    <?php echo $this->Form->input('rating_id', array('class' => 'form-control', 'id' => 'rating_id')); ?>
+                    <?php echo $this->Form->input('rating_id', array('class' => 'form-control')); ?>
                 </div>
                 <div class="form-group">
-                    <?php echo $this->Form->input('movie_id', array('class' => 'form-control', 'id' => 'movie_id')); ?>
+                    <?php echo $this->Form->input('movie_id', array('class' => 'form-control')); ?>
                 </div><!-- .form-group -->
                 <div class="form-group">
                     <?php echo $this->Form->input('Cinema', array('multiple' => 'checkbox')); ?>
