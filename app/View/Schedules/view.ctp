@@ -20,7 +20,7 @@
                     <a href="#" class="list-group-item" data-toggle="dropdown"><?php echo __('Showing'); ?><b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li class="list-group-item"><?php echo $this->Html->link(__('List Showings'), array('controller' => 'showings', 'action' => 'index')); ?> </li>
-                        <?php if ($this->Session->read('Auth.User.role') == "admin" || $this->Session->read('Auth.User.active') == 1) { ?>	
+                        <?php if ($this->Session->read('Auth.User.role') == "admin" || $this->Session->read('Auth.User.isConfirmed') == 1) { ?>	
 
                             <li class="list-group-item"><?php echo $this->Html->link(__('New Showing'), array('controller' => 'showings', 'action' => 'add')); ?> </li>
                         <?php } ?>
@@ -79,7 +79,7 @@
                                     <td><?php echo $showing['Movie']['titre']; ?></td>
                                     <td class="actions">
                                         <?php echo $this->Html->link(__('View'), array('controller' => 'showings', 'action' => 'view', $showing['id']), array('class' => 'btn btn-default btn-xs')); ?>
-                                        <?php if ($this->Session->read('Auth.User.role') == "admin" || $this->Session->read('Auth.User.active') == 1) { ?>				
+                                        <?php if ($this->Session->read('Auth.User.role') == "admin" || $this->Session->read('Auth.User.isConfirmed') == 1) { ?>				
                                             <?php echo $this->Html->link(__('Edit'), array('controller' => 'showings', 'action' => 'edit', $showing['id']), array('class' => 'btn btn-default btn-xs')); ?>
                                             <?php echo $this->Form->postLink(__('Delete'), array('controller' => 'showings', 'action' => 'delete', $showing['id']), array('class' => 'btn btn-default btn-xs'), __('Are you sure you want to delete # %s?', $showing['id'])); ?>
                                         <?php } ?>			
@@ -94,7 +94,7 @@
 
 
             <div class="actions">
-                <?php if ($this->Session->read('Auth.User.role') == "admin" || $this->Session->read('Auth.User.active') == 1) { ?>
+                <?php if ($this->Session->read('Auth.User.role') == "admin" || $this->Session->read('Auth.User.isConfirmed') == 1) { ?>
                     <?php echo $this->Html->link('<i class="icon-plus icon-white"></i> ' . __('New Showing'), array('controller' => 'showings', 'action' => 'add'), array('class' => 'btn btn-primary', 'escape' => false)); ?>				</div><!-- /.actions -->
             <?php } ?>
         </div>

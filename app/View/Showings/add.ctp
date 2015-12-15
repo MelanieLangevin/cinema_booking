@@ -56,7 +56,7 @@
             <fieldset>
 
                 <div class="form-group">
-                    <?php echo $this->Form->input('date', array('class' => 'form-control')); ?>
+                    <?php echo $this->Form->input('date'), array('class' => 'form-control')); ?>
                 </div><!-- .form-group -->
                 <div class="form-group">
                     <?php echo $this->Form->input('Schedule', array('multiple' => 'checkbox')); ?> 
@@ -98,6 +98,6 @@ $this->Js->get('#ShowingRatingId')->event('change', $this->Js->request(array(
             'data' => $this->Js->serializeForm(array(
                 'isForm' => true,
                 'inline' => true
-            ))
+            )),
         ))
 );

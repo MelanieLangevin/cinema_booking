@@ -59,7 +59,7 @@ CREATE TABLE `cinemas` (
   `adress` varchar(100) NOT NULL,
   `phone` varchar(13) NOT NULL,
   `user_id` int(11) DEFAULT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
 --
 -- Contenu de la table `cinemas`

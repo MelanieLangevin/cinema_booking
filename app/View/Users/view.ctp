@@ -58,7 +58,7 @@
                 </tr>
                 <?php if ($this->Session->read('Auth.User.role') == "admin" || $this->Session->read('Auth.User.id') == $user['User']['id']) { ?>
                     <tr>		<td><strong><?php echo __('Active'); ?></strong></td>
-                        <?php if ($user['User']['active'] == 1) {?>
+                        <?php if ($user['User']['isConfirmed'] == 1) {?>
                             <td><?php echo __('Is active'); ?>&nbsp;</td>
 
                         <?php } else { ?>
@@ -73,12 +73,14 @@
                     </td>
                 </tr><tr>		<td><strong><?php echo __('Created'); ?></strong></td>
                     <td>
-                        <?php echo h($user['User']['created']); ?>
+                        <?php $created = $user['User']['created'];
+                                    echo h(is_numeric($created) ? date("Y-m-d H:i:s", $created) : h($created)); ?>
                         &nbsp;
                     </td>
                 </tr><tr>		<td><strong><?php echo __('Modified'); ?></strong></td>
                     <td>
-                        <?php echo h($user['User']['modified']); ?>
+                        <?php $modified = $user['User']['modified'];
+                                    echo h(is_numeric($modified) ? date("Y-m-d H:i:s", $modified) : h($modified)); ?>
                         &nbsp;
                     </td>
                 </tr>					</tbody>

@@ -18,7 +18,7 @@
                     <ul class="dropdown-menu">
                         <li class="list-group-item"><?php echo $this->Html->link(__('List Cinemas'), array('controller' => 'cinemas', 'action' => 'index'), array('class' => '')); ?></li> 
                         <?php if ($this->Session->check('Auth.User')) { ?>				
-                        <li class="list-group-item"><?php echo $this->Html->link(__('New Cinema'), array('controller' => 'cinemas', 'action' => 'add'), array('class' => '')); ?></li> 
+                            <li class="list-group-item"><?php echo $this->Html->link(__('New Cinema'), array('controller' => 'cinemas', 'action' => 'add'), array('class' => '')); ?></li> 
                         <?php } ?>                                  
                     </ul></div>
             </ul><!-- /.list-group -->
@@ -48,32 +48,41 @@
                     </thead>
                     <tbody>
                         <?php foreach ($users as $user): ?>
-                        <tr>
-                            <td><?php echo h($user['User']['username']); ?>&nbsp;</td>
-                            <td><?php echo h($user['User']['email']); ?>&nbsp;</td>
-                            <?php
-                            if ($this->Session->read('Auth.User.role') == "admin" || $this->Session->read('Auth.User.id') == $user['User']['id']) {
-                                if ($user['User']['active'] == 1) { ?>
-                                    <td><?php echo __('Is active'); ?>&nbsp;</td>
-                               <?php } else { ?>
-                                    <td><?php echo __('<font color="red">Not active</font>'); ?>&nbsp;</td>
-                               <?php }
-                            }else{ ?>
-                                <td><?php echo __(' '); ?>&nbsp;</td>
-                            <?php } ?>
+                            <tr>
+                                <td><?php echo h($user['User']['username']); ?>&nbsp;</td>
+                                <td><?php echo h($user['User']['email']); ?>&nbsp;</td>
+                                <?php
+                                if ($this->Session->read('Auth.User.role') == "admin" || $this->Session->read('Auth.User.id') == $user['User']['id']) {
+                                    if ($user['User']['isConfirmed'] == 1) {
+                                        ?>
+                                        <td><?php echo __('Is active'); ?>&nbsp;</td>
+                                    <?php } else { ?>
+                                        <td><?php echo __('<font color="red">Not active</font>'); ?>&nbsp;</td>
+                                    <?php
+                                    }
+                                } else {
+                                    ?>
+                                    <td><?php echo __(' '); ?>&nbsp;</td>
+    <?php } ?>
 
-                            <td><?php echo h($user['User']['role']); ?>&nbsp;</td>
-                            <td><?php echo h($user['User']['created']); ?>&nbsp;</td>
-                            <td><?php echo h($user['User']['modified']); ?>&nbsp;</td>
-                            <td class="actions">
-                                <?php echo $this->Html->link(__('View'), array('action' => 'view', $user['User']['id']), array('class' => 'btn btn-default btn-xs')); ?>
-                                <?php if ($this->Session->read('Auth.User.role') == "admin" || $this->Session->read('Auth.User.id') == $user['User']['id']) { ?>
-                                <?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $user['User']['id']), array('class' => 'btn btn-default btn-xs')); ?>
-                                <?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $user['User']['id']), array('class' => 'btn btn-default btn-xs'), __('Are you sure you want to delete # %s?', $user['User']['id'])); ?>
-<?php } ?>		
-                            </td>
+                                <td><?php echo h($user['User']['role']); ?>&nbsp;</td>
+                                <td><?php
+                                    $created = $user['User']['created'];
+                                    echo h(is_numeric($created) ? date("Y-m-d H:i:s", $created) : h($created));
+                                    ?>&nbsp;</td>
+                                <td><?php
+                                    $modified = $user['User']['modified'];
+                                    echo h(is_numeric($modified) ? date("Y-m-d H:i:s", $modified) : h($modified));
+                                    ?>&nbsp;</td>
+                                <td class="actions">
+                                    <?php echo $this->Html->link(__('View'), array('action' => 'view', $user['User']['id']), array('class' => 'btn btn-default btn-xs')); ?>
+                                    <?php if ($this->Session->read('Auth.User.role') == "admin" || $this->Session->read('Auth.User.id') == $user['User']['id']) { ?>
+                                        <?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $user['User']['id']), array('class' => 'btn btn-default btn-xs')); ?>
+                                        <?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $user['User']['id']), array('class' => 'btn btn-default btn-xs'), __('Are you sure you want to delete # %s?', $user['User']['id'])); ?>
+    <?php } ?>		
+                                </td>
 
-                        </tr>
+                            </tr>
 <?php endforeach; ?>
                     </tbody>
                 </table>
@@ -82,7 +91,7 @@
             <p><small>
                     <?php
                     echo $this->Paginator->counter(array(
-                    'format' => __('Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}')
+                        'format' => __('Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}')
                     ));
                     ?>
                 </small></p>

@@ -17,7 +17,7 @@
                                 <a href="#" class="list-group-item" data-toggle="dropdown"><?php echo __('Showing'); ?><b class="caret"></b></a>
 				<ul class="dropdown-menu">
 				<li class="list-group-item"><?php echo $this->Html->link(__('List Showings'), array('controller' => 'showings', 'action' => 'index')); ?> </li>	
-                                 <?php if ($this->Session->read('Auth.User.role') == "admin" || $this->Session->read('Auth.User.active') == 1) { ?>
+                                 <?php if ($this->Session->read('Auth.User.role') == "admin" || $this->Session->read('Auth.User.isConfirmed') == 1) { ?>
                             
                                 <li class="list-group-item"><?php echo $this->Html->link(__('New Showing'), array('controller' => 'showings', 'action' => 'add')); ?> </li>
 			<?php } ?>

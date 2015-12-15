@@ -7,7 +7,7 @@
 
             <ul class="list-group">
                 <div class="dropdown">
-                    <?php if ($this->Session->read('Auth.User.active') == 1 || $this->Session->read('Auth.User.role') == "admin") { ?>		
+                    <?php if ($this->Session->read('Auth.User.isConfirmed') == 1 || $this->Session->read('Auth.User.role') == "admin") { ?>		
                         <a href="#" class="list-group-item" data-toggle="dropdown"><?php echo __('Movie'); ?><b class="caret"></b></a>
                         <ul class="dropdown-menu">
 
@@ -34,7 +34,7 @@
                     <a href="#" class="list-group-item" data-toggle="dropdown"><?php echo __('Showing'); ?><b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li class="list-group-item"><?php echo $this->Html->link(__('List Showings'), array('controller' => 'showings', 'action' => 'index'), array('class' => '')); ?></li> 
-                        <?php if ($this->Session->read('Auth.User.active') == 1 || $this->Session->read('Auth.User.role') == "admin") { ?>		
+                        <?php if ($this->Session->read('Auth.User.isConfirmed') == 1 || $this->Session->read('Auth.User.role') == "admin") { ?>		
                             <li class="list-group-item"><?php echo $this->Html->link(__('New Showing'), array('controller' => 'showings', 'action' => 'add'), array('class' => '')); ?></li> 
                         <?php } ?>                                  
                     </ul>
@@ -89,7 +89,7 @@
                                 </td>
                                 <td class="actions">
                                     <?php echo $this->Html->link(__('View'), array('action' => 'view', $movie['Movie']['id']), array('class' => 'btn btn-default btn-xs')); ?>
-                                    <?php if ($this->Session->read('Auth.User.active') == 1 || $this->Session->read('Auth.User.role') == "admin") { ?>		
+                                    <?php if ($this->Session->read('Auth.User.isConfirmed') == 1 || $this->Session->read('Auth.User.role') == "admin") { ?>		
                                         <?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $movie['Movie']['id']), array('class' => 'btn btn-default btn-xs')); ?>
         <?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $movie['Movie']['id']), array('class' => 'btn btn-default btn-xs'), __('Are you sure you want to delete # %s?', $movie['Movie']['id'])); ?>
     <?php } ?>

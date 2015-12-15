@@ -1,8 +1,7 @@
 <?php
-
-echo __('<p>Name : ' ); 
+echo __('<p>Name : ');
 echo ('Mélanie Langevin');
-echo __('<br/> For the course : ' );
+echo __('<br/> For the course : ');
 echo ('420-267 MO Développer un site Web et une application pour Internet. <br/> Automne 2015, Collège Montmorency.');
 echo __('<p>Option : <br/>');
 echo __('<li>Enable upload Image : <b>Poster</b> for the table <b>Movie</b></li>');
@@ -19,3 +18,8 @@ echo __('<p><br/>Schema of the database : ');
 echo __($this->Html->link('Click here for the original ', 'http://www.databaseanswers.org/data_models/cinema_bookings/index.htm'));
 echo('<br/></p>');
 echo $this->Html->image('modelbd.gif');
+?>
+
+<a name="SvgLogo">
+    <object type="image/svg+xml" data="/cinema_booking2/img/grandLogoSVGCinema.svg">Your browser does not support SVG</object>
+</a>

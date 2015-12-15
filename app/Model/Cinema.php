@@ -108,8 +108,8 @@ class Cinema extends AppModel {
 			'finderQuery' => '',
 		)
 	);
-        public function isOwnedBy($post, $user) {
-    return $this->field('id', array('id' => $post, 'user_id' => $user)) !== false;
+        public function isOwnedBy($cinema, $user) {
+    return $this->field('id', array('id' => $cinema, 'user_id' => $user)) !== false;
 }
 
 }

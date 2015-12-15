@@ -67,47 +67,64 @@
  * flags =>
  * A key/value array of driver specific connection options.
  */
+define('DEFAULT_DB', APP.'sqlite'.DS.'default.sqlite');
+define('TEST_DB', APP.DS.'sqlite'.DS.'test.sqlite');
 class DATABASE_CONFIG {
 
-    public $default = array(
-        'datasource' => 'Database/Mysql',
-        'persistent' => false,
-        'host' => 'localhost',
-        'login' => '',
-        'password' => '',
-        'database' => '',
-        'prefix' => '',
-            //'encoding' => 'utf8',
-    );
-    public $test = array(
-        'datasource' => 'Database/Mysql',
-        'persistent' => false,
-        'host' => 'localhost',
-        'login' => 'user',
-        'password' => 'password',
-        'database' => 'test_database_name',
-        'prefix' => '',
-            //'encoding' => 'utf8',
-    );
+//    public $default = array(
+//        'datasource' => 'Database/Mysql',
+//        'persistent' => false,
+//        'host' => 'localhost',
+//        'login' => '',
+//        'password' => '',
+//        'database' => '',
+//        'prefix' => '',
+//            //'encoding' => 'utf8',
+//    );
     
-    public function __construct() {
-               if (getenv("OPENSHIFT_MYSQL_DB_HOST")):
-	           $this->default['host']       = getenv("OPENSHIFT_MYSQL_DB_HOST");
-	           $this->default['port']       = getenv("OPENSHIFT_MYSQL_DB_PORT");
-	           $this->default['login']      = getenv("OPENSHIFT_MYSQL_DB_USERNAME");
-	           $this->default['password']   = getenv("OPENSHIFT_MYSQL_DB_PASSWORD");
-	           $this->default['database']   = getenv("OPENSHIFT_APP_NAME");
-	           $this->default['datasource'] = 'Database/Mysql';
-	           $this->test['datasource']    = 'Database/Mysql';
-	       else:
-	           $this->default['host']       = "localhost";
-	           //$this->default['port']       = getenv("OPENSHIFT_POSTGRESQL_DB_PORT");
-	           $this->default['login']      = "root";
-	           $this->default['password']   = "mysql";
-	           $this->default['database']   = "cinema_booking";
-	           $this->default['datasource'] = 'Database/Mysql';
-	           $this->test['datasource']    = 'Database/Mysql';
-	       endif;
-	}
+     public $default = array(
+        'datasource' => 'Database/Sqlite',
+        'persistent' => false,
+        'database' => DEFAULT_DB,
+        'prefix' => '',
+        //'encoding' =&gt; 'utf8',
+    );
+     public $test = array(
+        'datasource' => 'Database/Sqlite',
+        'persistent' => false,
+        'database' => TEST_DB,
+        'prefix' => '',
+        //'encoding' =&gt; 'utf8',
+        );
+//    public $test = array(
+//        'datasource' => 'Database/Mysql',
+//        'persistent' => false,
+//        'host' => 'localhost',
+//        'login' => 'root',
+//        'password' => 'mysql',
+//        'database' => 'cinema_booking_test',
+//        'prefix' => '',
+//            //'encoding' => 'utf8',
+//    );
+    
+//    public function __construct() {
+//               if (getenv("OPENSHIFT_MYSQL_DB_HOST")):
+//	           $this->default['host']       = getenv("OPENSHIFT_MYSQL_DB_HOST");
+//	           $this->default['port']       = getenv("OPENSHIFT_MYSQL_DB_PORT");
+//	           $this->default['login']      = getenv("OPENSHIFT_MYSQL_DB_USERNAME");
+//	           $this->default['password']   = getenv("OPENSHIFT_MYSQL_DB_PASSWORD");
+//	           $this->default['database']   = getenv("OPENSHIFT_APP_NAME");
+//	           $this->default['datasource'] = 'Database/Mysql';
+//	           $this->test['datasource']    = 'Database/Mysql';
+//	       else:
+//	           $this->default['host']       = "localhost";
+//	           //$this->default['port']       = getenv("OPENSHIFT_POSTGRESQL_DB_PORT");
+//	           $this->default['login']      = "root";
+//	           $this->default['password']   = "mysql";
+//	           $this->default['database']   = "cinema_booking";
+//	           $this->default['datasource'] = 'Database/Mysql';
+//	           $this->test['datasource']    = 'Database/Mysql';
+//	       endif;
+//	}
 
 }

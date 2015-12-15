@@ -17,14 +17,14 @@
                     <a href="#" class="list-group-item" data-toggle="dropdown"><?php echo __('User'); ?><b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li class="list-group-item"><?php echo $this->Html->link(__('List Users'), array('controller' => 'users', 'action' => 'index'), array('class' => '')); ?></li> 
-                        <?php if ($this->Session->read('Auth.User.role') == "admin" && $this->Session->read('Auth.User.active') == 1) { ?>				
+                        <?php if ($this->Session->read('Auth.User.role') == "admin" && $this->Session->read('Auth.User.isConfirmed') == 1) { ?>				
                         <li class="list-group-item"><?php echo $this->Html->link(__('New User'), array('controller' => 'users', 'action' => 'add'), array('class' => '')); ?></li> 
                         <?php } ?>                                
                     </ul></div> 
                 <div class="dropdown">
                     <a href="#" class="list-group-item" data-toggle="dropdown"><?php echo __('Showing'); ?><b class="caret"></b></a>
                     <ul class="dropdown-menu"><li class="list-group-item"><?php echo $this->Html->link(__('List Showings'), array('controller' => 'showings', 'action' => 'index'), array('class' => '')); ?></li> 
-                        <?php if ( $this->Session->read('Auth.User.active') == "1" || $this->Session->read('Auth.User.role') == "admin") { ?>				
+                        <?php if ( $this->Session->read('Auth.User.isConfirmed') == "1" || $this->Session->read('Auth.User.role') == "admin") { ?>				
                         <li class="list-group-item"><?php echo $this->Html->link(__('New Showing'), array('controller' => 'showings', 'action' => 'add'), array('class' => '')); ?></li> 
                         <?php } ?>                                
                     </ul></div>

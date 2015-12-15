@@ -133,17 +133,17 @@ class MoviesController extends AppController {
         return parent::isAuthorized($user);
     }
 
-    public function getByRating($id = null) {
-        $rating_id = $this->request->data['Showing']['rating_id'];
-
-        $movies = $this->Movie->find('list', array(
-            'conditions' => array('Movie.rating_id' => $rating_id),
-            'recursive' => -1
-        ));
-
-        $this->set('movies', $movies);
-        $this->layout = 'ajax';
-    }
+//    public function getByRating($id = null) {
+//        $rating_id = $this->request->data['Showing']['rating_id'];
+//
+//        $movies = $this->Movie->find('list', array(
+//            'conditions' => array('Movie.rating_id' => $rating_id),
+//            'recursive' => -1
+//        ));
+//
+//        $this->set('movies', $movies);
+//        $this->layout = 'ajax';
+//    }
 
     public function handleAjax() {
         if ($this->request->is('ajax')) {
@@ -152,6 +152,13 @@ class MoviesController extends AppController {
             $this->set(compact('studioNames'));
             $this->set('_serialize', 'studioNames');
         }
+    }
+    
+        public function getByRating($id = null) {
+        $rating_id = $this->request->data['Showing']['rating_id'];
+        $movies = $this->Movie->trouverFilmSelonRate($rating_id);
+        $this->set('movies', $movies);
+        $this->layout = 'ajax';
     }
 
 }

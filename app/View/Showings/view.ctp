@@ -9,7 +9,7 @@
                 <div class="dropdown">
                     <a href="#" class="list-group-item" data-toggle="dropdown"><?php echo __('Showing'); ?><b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <?php if (($this->Session->read('Auth.User.active') == 1) || $this->Session->read('Auth.User.role') == "admin") { ?>		
+                        <?php if (($this->Session->read('Auth.User.isConfirmed') == 1) || $this->Session->read('Auth.User.role') == "admin") { ?>		
                             <li class="list-group-item"><?php echo $this->Html->link(__('Edit Showing'), array('action' => 'edit', $showing['Showing']['id']), array('class' => '')); ?> </li>
                             <li class="list-group-item"><?php echo $this->Form->postLink(__('Delete Showing'), array('action' => 'delete', $showing['Showing']['id']), array('class' => ''), __('Are you sure you want to delete # %s?', $showing['Showing']['id'])); ?> </li>
                             <li class="list-group-item"><?php echo $this->Html->link(__('New Showing'), array('action' => 'add'), array('class' => '')); ?> </li>	
@@ -21,7 +21,7 @@
                     <a href="#" class="list-group-item" data-toggle="dropdown"><?php echo __('Movie'); ?><b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li class="list-group-item"><?php echo $this->Html->link(__('List Movies'), array('controller' => 'movies', 'action' => 'index'), array('class' => '')); ?> </li>
-                        <?php if ($this->Session->read('Auth.User.active') == 1 || $this->Session->read('Auth.User.role') == "admin") { ?>		
+                        <?php if ($this->Session->read('Auth.User.isConfirmed') == 1 || $this->Session->read('Auth.User.role') == "admin") { ?>		
                             <li class="list-group-item"><?php echo $this->Html->link(__('New Movie'), array('controller' => 'movies', 'action' => 'add'), array('class' => '')); ?> </li>
                         <?php } ?>                                
                     </ul></div>
@@ -71,7 +71,7 @@
                             </td>
                         </tr><tr>		<td><strong><?php echo __('Movie'); ?></strong></td>
                             <td>
-<?php if ($this->Session->read('Auth.User.active') == 1 || $this->Session->read('Auth.User.role') == "admin") { ?>
+<?php if ($this->Session->read('Auth.User.isConfirmed') == 1 || $this->Session->read('Auth.User.role') == "admin") { ?>
                                 <?php echo $this->Html->link($showing['Movie']['titre'], array('controller' => 'movies', 'action' => 'view', $showing['Movie']['id']), array('class' => '')); ?>
                                 &nbsp;
 <?php }?>

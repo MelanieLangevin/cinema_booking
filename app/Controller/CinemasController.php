@@ -72,7 +72,6 @@ class CinemasController extends AppController {
      * @return void
      */
     public function add() {
-       
         if ($this->request->is('post')) {
             $this->Cinema->create();
             $this->request->data['Post']['user_id'] = $this->Auth->user('id');

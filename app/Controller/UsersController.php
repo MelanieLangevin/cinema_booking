@@ -156,7 +156,7 @@ class UsersController extends AppController {
         $email->subject('Mail Confirmation');
         $email->emailFormat('html');
         $email->template('signup');
-        $email->viewVars(array('username' => $name, 'password' => $pass, 'active' => $active));
+        $email->viewVars(array('username' => $name, 'password' => $pass, 'isConfirmed' => $active));
         $email->send();
     }
 
@@ -165,12 +165,12 @@ class UsersController extends AppController {
         $user = $this->User->find('first', array(
             'conditions' => array(
                 'id' => $token[0],
-                'active' => 0)
+                'isConfirmed' => 0)
         ));
         $pass = md5($user['User']['password']);
         if (!empty($user) && $pass == $token[1]) {
             $this->User->id = $user['User']['id'];
-            $this->User->saveField('active', 1);
+            $this->User->saveField('isConfirmed', 1);
             $this->Session->setFlash(__('Your account has been activated successfully'), 'flash/success');
             $this->Auth->login();
         } else {
