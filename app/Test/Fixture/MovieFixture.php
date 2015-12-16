@@ -10,12 +10,12 @@ class MovieFixture extends CakeTestFixture {
  * @var array
  */
 	public $fields = array(
-		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'unsigned' => false, 'key' => 'primary'),
-		'titre' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 30, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
-		'annee' => array('type' => 'integer', 'null' => false, 'default' => null, 'unsigned' => false),
-		'studio' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 75, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
-		'resume' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 150, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
-		'poster' => array('type' => 'string', 'null' => false, 'default' => null, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'id' => array('type' => 'integer', 'default' => null, 'unsigned' => false, 'key' => 'primary'),
+		'titre' => array('type' => 'string','default' => null, 'length' => 30, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'annee' => array('type' => 'integer','default' => null, 'unsigned' => false),
+		'studio' => array('type' => 'string','default' => null, 'length' => 75, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'resume' => array('type' => 'string','default' => null, 'length' => 150, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'poster' => array('type' => 'string','default' => null, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
 		'category_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'unsigned' => false),
 		'rating_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'unsigned' => false),
 		'indexes' => array(
