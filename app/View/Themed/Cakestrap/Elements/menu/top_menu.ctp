@@ -12,7 +12,7 @@
             'action' => 'index'), array('class' => 'navbar-brand'));
         ?>
                <?php echo 
-$this->Html->link($this->Html->image('LogoSVGCinema.svg'),  array(
+$this->Html->link($this->Html->image('logoSVGCinema.svg'),  array(
                         'controller' => 'cinemas',
                         'action' => 'about',
                         '#' => 'SvgLogo'), array('escape'=>false, 'position'=>"right")); ?>
