@@ -11,7 +11,8 @@
             'controller' => 'cinemas',
             'action' => 'index'), array('class' => 'navbar-brand'));
         ?>
-               <?php echo $this->Html->link('<object type="image/svg+xml" data="/cinema_booking2/img/logoSVGCinema.svg">Your browser does not support SVG</object>',  array(
+               <?php echo 
+$this->Html->link($this->Html->image('LogoSVGCinema.svg'),  array(
                         'controller' => 'cinemas',
                         'action' => 'about',
                         '#' => 'SvgLogo'), array('escape'=>false, 'position'=>"right")); ?>
