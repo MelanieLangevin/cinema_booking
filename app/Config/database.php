@@ -82,13 +82,13 @@ class DATABASE_CONFIG {
 //            //'encoding' => 'utf8',
 //    );
     
-     public $default = array(
-        'datasource' => 'Database/Sqlite',
-        'persistent' => false,
-        'database' => DEFAULT_DB,
-        'prefix' => '',
-        //'encoding' =&gt; 'utf8',
-    );
+//     public $default = array(
+//        'datasource' => 'Database/Sqlite',
+//        'persistent' => false,
+//        'database' => DEFAULT_DB,
+//        'prefix' => '',
+//        //'encoding' =&gt; 'utf8',
+//    );
      public $test = array(
         'datasource' => 'Database/Sqlite',
         'persistent' => false,
@@ -107,24 +107,37 @@ class DATABASE_CONFIG {
 //            //'encoding' => 'utf8',
 //    );
     
-//    public function __construct() {
-//               if (getenv("OPENSHIFT_MYSQL_DB_HOST")):
-//	           $this->default['host']       = getenv("OPENSHIFT_MYSQL_DB_HOST");
-//	           $this->default['port']       = getenv("OPENSHIFT_MYSQL_DB_PORT");
-//	           $this->default['login']      = getenv("OPENSHIFT_MYSQL_DB_USERNAME");
-//	           $this->default['password']   = getenv("OPENSHIFT_MYSQL_DB_PASSWORD");
-//	           $this->default['database']   = getenv("OPENSHIFT_APP_NAME");
+    public function __construct() {
+               if (getenv("OPENSHIFT_MYSQL_DB_HOST")):
+	           $this->default['host']       = getenv("OPENSHIFT_MYSQL_DB_HOST");
+	           $this->default['port']       = getenv("OPENSHIFT_MYSQL_DB_PORT");
+	           $this->default['login']      = getenv("OPENSHIFT_MYSQL_DB_USERNAME");
+	           $this->default['password']   = getenv("OPENSHIFT_MYSQL_DB_PASSWORD");
+	           $this->default['database']   = getenv("OPENSHIFT_APP_NAME");
 //	           $this->default['datasource'] = 'Database/Mysql';
 //	           $this->test['datasource']    = 'Database/Mysql';
-//	       else:
-//	           $this->default['host']       = "localhost";
-//	           //$this->default['port']       = getenv("OPENSHIFT_POSTGRESQL_DB_PORT");
-//	           $this->default['login']      = "root";
-//	           $this->default['password']   = "mysql";
-//	           $this->default['database']   = "cinema_booking";
-//	           $this->default['datasource'] = 'Database/Mysql';
-//	           $this->test['datasource']    = 'Database/Mysql';
-//	       endif;
-//	}
+                   $this->default['datasource'] = 'Database/Sqlite';
+	           $this->test['datasource']    = 'Database/Sqlite';
+	       else:
+	           $this->default['host']       = "localhost";
+	           //$this->default['port']       = getenv("OPENSHIFT_POSTGRESQL_DB_PORT");
+	           //$this->default['login']      = "root";
+	           //$this->default['password']   = "mysql";
+                   $this->default['prefix']     = '';
+                   $this->default['persistent'] = false;
+	           $this->default['database']   = DEFAULT_DB;
+	           $this->default['datasource'] = 'Database/Sqlite';
+	           $this->test['datasource']    = 'Database/Sqlite';
+                   $this->test['database']   = TEST_DB;
+	       endif;
+	}
+        
+//             public $default = array(
+//        'datasource' => 'Database/Sqlite',
+//        'persistent' => false,
+//        'database' => DEFAULT_DB,
+//        'prefix' => '',
+//        //'encoding' =&gt; 'utf8',
+//    );
 
 }
