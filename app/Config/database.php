@@ -109,7 +109,8 @@ class DATABASE_CONFIG {
      public $default = array(
         'datasource' => 'Database/Sqlite',
         'persistent' => false,
-        'prefix' => ''
+        'prefix' => '',
+        'database' => DEFAULT_DB
     );
     public function __construct() {
                if (getenv("OPENSHIFT_MYSQL_DB_HOST")):
