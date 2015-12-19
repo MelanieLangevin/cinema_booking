@@ -106,7 +106,15 @@ class DATABASE_CONFIG {
 //        'prefix' => '',
 //            //'encoding' => 'utf8',
 //    );
-    
+     public $default = array(
+        'datasource' => 'Database/Sqlite',
+        'persistent' => false,
+        'prefix' => ''
+    );
+
+    function __construct() {
+        $this->default['database'] = get_env('OPENSHIFT_DATA_DIR').'/database.sqlite';
+    }
     public function __construct() {
                if (getenv("OPENSHIFT_MYSQL_DB_HOST")):
 	           $this->default['host']       = getenv("OPENSHIFT_MYSQL_DB_HOST");
@@ -114,10 +122,11 @@ class DATABASE_CONFIG {
 	           $this->default['login']      = getenv("OPENSHIFT_MYSQL_DB_USERNAME");
 	           $this->default['password']   = getenv("OPENSHIFT_MYSQL_DB_PASSWORD");
 	           $this->default['database']   = getenv("OPENSHIFT_APP_NAME");
-//	           $this->default['datasource'] = 'Database/Mysql';
-//	           $this->test['datasource']    = 'Database/Mysql';
+////	           $this->default['datasource'] = 'Database/Mysql';
+////	           $this->test['datasource']    = 'Database/Mysql';
                    $this->default['datasource'] = 'Database/Sqlite';
-	           $this->test['datasource']    = 'Database/Sqlite';
+//	           $this->test['datasource']    = 'Database/Sqlite';
+                   //$this->default['database'] = get_env('OPENSHIFT_DATA_DIR').'/database.sqlite';
 	       else:
 	           $this->default['host']       = "localhost";
 	           //$this->default['port']       = getenv("OPENSHIFT_POSTGRESQL_DB_PORT");
