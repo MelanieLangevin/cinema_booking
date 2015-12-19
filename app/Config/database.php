@@ -111,10 +111,6 @@ class DATABASE_CONFIG {
         'persistent' => false,
         'prefix' => ''
     );
-
-    function __construct() {
-        $this->default['database'] = get_env('OPENSHIFT_DATA_DIR').'/database.sqlite';
-    }
     public function __construct() {
                if (getenv("OPENSHIFT_MYSQL_DB_HOST")):
 	           $this->default['host']       = getenv("OPENSHIFT_MYSQL_DB_HOST");
