@@ -122,6 +122,7 @@ class DATABASE_CONFIG {
 ////	           $this->default['datasource'] = 'Database/Mysql';
 ////	           $this->test['datasource']    = 'Database/Mysql';
                    $this->default['datasource'] = 'Database/Sqlite';
+                   $this->default['database']   = DEFAULT_DB;
 //	           $this->test['datasource']    = 'Database/Sqlite';
                    //$this->default['database'] = get_env('OPENSHIFT_DATA_DIR').'/database.sqlite';
 	       else:
