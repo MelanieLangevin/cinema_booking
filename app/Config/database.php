@@ -89,13 +89,13 @@ class DATABASE_CONFIG {
 //        'prefix' => '',
 //        //'encoding' =&gt; 'utf8',
 //    );
-     public $test = array(
-        'datasource' => 'Database/Sqlite',
-        'persistent' => false,
-        'database' => TEST_DB,
-        'prefix' => '',
-        //'encoding' =&gt; 'utf8',
-        );
+//     public $test = array(
+//        'datasource' => 'Database/Sqlite',
+//        'persistent' => false,
+//        'database' => TEST_DB,
+//        'prefix' => '',
+//        //'encoding' =&gt; 'utf8',
+//        );
 //    public $test = array(
 //        'datasource' => 'Database/Mysql',
 //        'persistent' => false,
@@ -106,12 +106,12 @@ class DATABASE_CONFIG {
 //        'prefix' => '',
 //            //'encoding' => 'utf8',
 //    );
-     public $default = array(
-        'datasource' => 'Database/Sqlite',
-        'persistent' => false,
-        'prefix' => '',
-        'database' => DEFAULT_DB
-    );
+//     public $default = array(
+//        'datasource' => 'Database/Sqlite',
+//        'persistent' => false,
+//        'prefix' => '',
+//        'database' => DEFAULT_DB
+//    );
     public function __construct() {
                if (getenv("OPENSHIFT_MYSQL_DB_HOST")):
 	           $this->default['host']       = getenv("OPENSHIFT_MYSQL_DB_HOST");
@@ -123,7 +123,8 @@ class DATABASE_CONFIG {
 ////	           $this->test['datasource']    = 'Database/Mysql';
                    $this->default['datasource'] = 'Database/Sqlite';
                    $this->default['database']   = DEFAULT_DB;
-//	           $this->test['datasource']    = 'Database/Sqlite';
+	           $this->test['datasource']    = 'Database/Sqlite';
+                   $this->test['database']    = TEST_DB;
                    //$this->default['database'] = get_env('OPENSHIFT_DATA_DIR').'/database.sqlite';
 	       else:
 	           $this->default['host']       = "localhost";
